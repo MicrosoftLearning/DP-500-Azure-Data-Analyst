@@ -1,0 +1,9 @@
+14.0
+7
+1       SQLNCHAR            0       24      "\t\0"       1     FinanceKey                               ""
+2       SQLNCHAR            0       24      "\t\0"       2     DateKey                                  ""
+3       SQLNCHAR            0       24      "\t\0"       3     OrganizationKey                          ""
+4       SQLNCHAR            0       24      "\t\0"       4     DepartmentGroupKey                       ""
+5       SQLNCHAR            0       24      "\t\0"       5     ScenarioKey                              ""
+6       SQLNCHAR            0       24      "\t\0"       6     AccountKey                               ""
+7       SQLNCHAR            0       60      "\r\0\n\0"   7     Amount                                   ""

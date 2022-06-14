@@ -1,0 +1,4 @@
+14.0
+2
+1       SQLNCHAR            0       24      "\t\0"       1     ScenarioKey                  ""
+2       SQLNCHAR            0       100     "\r\0\n\0"   2     ScenarioName                 SQL_Latin1_General_CP1_CI_AS

@@ -1,0 +1,6 @@
+14.0
+4
+1       SQLNCHAR            0       24      "\t\0"       1     SalesReasonKey                                     ""
+2       SQLNCHAR            0       24      "\t\0"       2     SalesReasonAlternateKey                            ""
+3       SQLNCHAR            0       100     "\t\0"       3     SalesReasonName                                    SQL_Latin1_General_CP1_CI_AS
+4       SQLNCHAR            0       100     "\r\0\n\0"   4     SalesReasonReasonType                              SQL_Latin1_General_CP1_CI_AS

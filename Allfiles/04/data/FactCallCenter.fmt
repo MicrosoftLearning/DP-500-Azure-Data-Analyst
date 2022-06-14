@@ -1,0 +1,15 @@
+14.0
+13
+1       SQLNCHAR            0       24      "\t\0"       1     FactCallCenterID                           ""
+2       SQLNCHAR            0       24      "\t\0"       2     DateKey                                    ""
+3       SQLNCHAR            0       30      "\t\0"       3     WageType                                   SQL_Latin1_General_CP1_CI_AS
+4       SQLNCHAR            0       40      "\t\0"       4     Shift                                      SQL_Latin1_General_CP1_CI_AS
+5       SQLNCHAR            0       14      "\t\0"       5     LevelOneOperators                          ""
+6       SQLNCHAR            0       14      "\t\0"       6     LevelTwoOperators                          ""
+7       SQLNCHAR            0       14      "\t\0"       7     TotalOperators                             ""
+8       SQLNCHAR            0       24      "\t\0"       8     Calls                                      ""
+9       SQLNCHAR            0       24      "\t\0"       9     AutomaticResponses                         ""
+10      SQLNCHAR            0       24      "\t\0"       10    Orders                                     ""
+11      SQLNCHAR            0       14      "\t\0"       11    IssuesRaised                               ""
+12      SQLNCHAR            0       14      "\t\0"       12    AverageTimePerIssue                        ""
+13      SQLNCHAR            0       60      "\r\0\n\0"   13    ServiceGrade                               ""

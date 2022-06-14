@@ -1,0 +1,5 @@
+14.0
+3
+1       SQLNCHAR            0       40      "\t\0"       1     SalesOrderNumber                             SQL_Latin1_General_CP1_CI_AS
+2       SQLNCHAR            0       10      "\t\0"       2     SalesOrderLineNumber                         ""
+3       SQLNCHAR            0       24      "\r\0\n\0"   3     SalesReasonKey                               ""

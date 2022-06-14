@@ -1,0 +1,60 @@
+>> Sales measure definition
+==================================================
+Sales = SUM ( 'Sales'[Sales Amount] )
+
+
+>> Cost measure definition
+==================================================
+Cost = SUM ( 'Sales'[Total Product Cost] )
+
+
+>> Profit measure definition
+==================================================
+Profit = [Sales] - [Cost]
+
+
+>> Current calculation item
+==================================================
+SELECTEDMEASURE ()
+
+
+>> PY calculation item
+==================================================
+CALCULATE ( SELECTEDMEASURE (), SAMEPERIODLASTYEAR ( 'Date'[Date] ) )
+
+
+>> YoY calculation item
+==================================================
+SELECTEDMEASURE ()
+    - CALCULATE ( SELECTEDMEASURE (), 'Time Intelligence'[Time Calculation] = "PY" )
+
+
+>> YoY % calculation item
+==================================================
+DIVIDE (
+    CALCULATE ( SELECTEDMEASURE (), 'Time Intelligence'[Time Calculation] = "YoY" ),
+    CALCULATE ( SELECTEDMEASURE (), 'Time Intelligence'[Time Calculation] = "PY" )
+)
+
+
+>> YoY % calculation item format string
+==================================================
+"0.00%;-0.00%;0.00%"
+
+
+>> Currency Conversion calculation item
+==================================================
+IF (
+    HASONEVALUE ( 'Currency'[Currency] ),
+    SUMX (
+        VALUES ( 'Date'[Date] ),
+        CALCULATE (
+            DIVIDE ( SELECTEDMEASURE (), MAX ( 'Currency Rate'[EndOfDayRate] ) )
+        )
+    )
+)
+
+
+>> Currency Conversion calculation item format string
+==================================================
+SELECTEDVALUE ( 'Currency'[FormatString] )

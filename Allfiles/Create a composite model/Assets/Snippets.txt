@@ -1,0 +1,12 @@
+>> Variance measure definition
+==================================================
+Variance = SUM ( 'Sales'[Sales Amount] ) - SUM ( 'Targets'[Target Amount] )
+
+
+>> Variance margin measure definition
+==================================================
+Variance Margin =
+DIVIDE (
+	[Variance],
+	SUM ( 'Targets'[Target Amount] )
+)

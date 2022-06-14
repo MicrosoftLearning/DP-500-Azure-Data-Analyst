@@ -1,0 +1,6 @@
+14.0
+4
+1       SQLNCHAR            0       24      "\t\0"       1     SalesQuotaKey                        ""
+2       SQLNCHAR            0       24      "\t\0"       2     EmployeeKey                          ""
+3       SQLNCHAR            0       24      "\t\0"       3     DateKey                              ""
+4       SQLNCHAR            0       60      "\r\0\n\0"   4     SalesAmountQuota                     ""

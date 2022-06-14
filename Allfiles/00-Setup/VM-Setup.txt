@@ -1,0 +1,26 @@
+Restore AdventureWorksDW2022-DP500.bak database to SQL Server localhost
+Ensure the lab user account belongs to the db_datareader database role of the AdventureWorksDW2022-DP500 database
+
+Restore AdventureWorksDW2022-DP500.bak database to Azure Synapse SQL pool
+Ensure the lab user account belongs to the db_datareader database role of the AdventureWorksDW2022-DP500 database
+
+Restore AdventureWorksDW2022-DP500.bak database to Azure SQL for each student
+Ensure the an account is created (or the lab user account?) that can SELECT/INSERT in this database
+
+Install Power BI Desktop v2.102.845.0 64-bit (February 2022)
+Ensure the new format pane preview feature is enabled
+Add Power BI Desktop shortcut to the taskbar
+
+Install Report Builder V15.7.01796.0001 (01/24/2022)
+Add Report Builder shortcut to the taskbar
+
+Add the following security groups to the student's tenant (no need to add any members):
+Salespeople
+Salespeople_Australia
+Salespeople_Canada
+Salespeople_NewEngland
+Salespeople_UnitedKingdom
+
+Add SSMS to taskbar
+Ensure when SSMS opens that the default connection (in the dialog box) server is set to localhost
+

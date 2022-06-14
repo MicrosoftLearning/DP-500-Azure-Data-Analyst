@@ -1,0 +1,30 @@
+>> Year custom column formula
+==================================================
+"FY" & Number.ToText([FiscalYear])
+
+
+>> Quarter custom column formula
+==================================================
+[Year] & " Q" & Number.ToText([FiscalQuarter])
+
+
+>> Month custom column formula
+==================================================
+Date.ToText([Date], "yyyy-MM")
+
+
+>> Month Offset custom column formula
+==================================================
+((Date.Year([Date]) * 12) + Date.Month([Date])) - ((Date.Year(DateTime.LocalNow()) * 12) + Date.Month(DateTime.LocalNow()))
+
+
+>> Month Offset Filter custom column formula
+==================================================
+if [Month Offset] > 0 then Number.ToText([Month Offset]) & " month(s) future"
+else if [Month Offset] = 0 then "Current month"
+else Number.ToText(-[Month Offset]) & " month(s) ago"
+
+
+>> Dataflow description
+==================================================
+Consistent date definition for use in all Adventure Works datasets
