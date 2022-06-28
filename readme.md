@@ -4,7 +4,7 @@
 - **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 - **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
 
-Access the [content directory](https://microsoftlearning.github.io/DP-500-Azure-Data-Analyst/) for a list of modules and their associated labs.
+Access the [content directory](https://microsoftlearning.github.io/DP-500-Azure-Data-Analyst/) for a list of ILT modules and their associated labs.
 
 ## What are we doing?
 
