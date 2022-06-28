@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Explore a relational data warehouse'
-    module: 'Implement a data warehouse in Azure Synapse Analytics'
+    module: 'Model, query, and explore data in Azure Synapse'
 ---
 
 # Explore a relational data warehouse
