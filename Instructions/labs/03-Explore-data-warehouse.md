@@ -33,7 +33,7 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
 
     ```
     rm -r dp500 -f
-    git clone https://github.com/MicrosoftLearning/DP-500T00A-Designing-and-Implementing-Enterprise-Scale-Analytics-Solutions-Using-Microsoft-Azure dp500
+    git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst dp500
     ```
 
 5. After the repo has been cloned, enter the following commands to change to the folder for this lab and run the **setup.ps1** script it contains:

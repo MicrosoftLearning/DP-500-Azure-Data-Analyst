@@ -38,7 +38,7 @@ In this exercise, you will prepare your environment.
 
 1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
     
-	`git clone https://github.com/MicrosoftLearning/DP-500T00A-Designing-and-Implementing-Enterprise-Scale-Analytics-Solutions-Using-Microsoft-Azure DP500`
+	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
 
 1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded.
@@ -96,7 +96,7 @@ In this task, you will set up Power BI Desktop.
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image6.png)
 
-2. Go to the **D:\DP500\Create reusable Power BI artifacts\Starter** folder.
+2. Go to the **D:\DP500\Allfiles\16\Starter** folder.
 
 3. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Create reusable Power BI artifacts.pbix** file.
 
@@ -160,7 +160,7 @@ In this task, you will create a new report that uses a live connection to the **
 
 3. To save the file, on the **File** ribbon, select **Save as**.
 
-4. In the **Save As** window, go to the **D:\DP500\Create reusable Power BI artifacts\MySolution** folder.
+4. In the **Save As** window, go to the **D:\DP500\Allfiles\16\MySolution** folder.
 
 5. In the **File name** box, enter **US Sales Analysis**.
 
@@ -275,11 +275,11 @@ In this task, you will add a table of US population data sourced from a web page
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image36.png)
 
-3. In the **URL** box, enter the following file path: **D:\DP500\Create reusable Power BI artifacts\Assets\us-resident-population-estimates-2020.html**
+3. In the **URL** box, enter the following file path: **D:\DP500\Allfiles\16\Assets\us-resident-population-estimates-2020.html**
 
 	*For the purposes of this lab, Power BI Desktop will access the web page from the file system.*
 
-	*Tip: The file path is available to copy and paste from the **D:\DP500\Create reusable Power BI artifacts\Assets\Snippets.txt** file.*
+	*Tip: The file path is available to copy and paste from the **D:\DP500\Allfiles\16\Assets\Snippets.txt** file.*
 
 4. Select **OK**.
 
@@ -375,7 +375,7 @@ In this task, you will add a measure to calculate sales per capita.
 
 3. In the formula bar, enter the following measure definition.
 
-	*Tip: The measure definition is available to copy and paste from the **D:\DP500\Create reusable Power BI artifacts\Assets\Snippets.txt** file.*
+	*Tip: The measure definition is available to copy and paste from the **D:\DP500\Allfiles\16\Assets\Snippets.txt** file.*
 
 	```
 	Sales per Capita =

@@ -39,7 +39,7 @@ In this exercise, you will prepare your environment.
 
     ```
     rm -r dp500 -f
-    git clone https://github.com/MicrosoftLearning/DP-500T00A-Designing-and-Implementing-Enterprise-Scale-Analytics-Solutions-Using-Microsoft-Azure dp500
+    git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst dp500
     ```
 
 5. After the repo has been cloned, enter the following commands to change to the **setup** folder and run the **setup.ps1** script it contains:
@@ -75,13 +75,12 @@ In this exercise, you will prepare your environment.
 1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
     
     ```
-    git clone --no-checkout https://github.com/MicrosoftLearning/DP-500T00A-Designing-and-Implementing-Enterprise-Scale-Analytics-Solutions-Using-Microsoft-Azure         DP500
-    cd DP500
-    git sparse-checkout set Allfiles/*
-    git read-tree -mu HEAD
+    git clone --no-checkout https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst         DP500
     ```
    
-1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded.
+1. When the repository has been cloned, close the command prompt window. 
+   
+1. Open the D drive in the file explorer to ensure the files have been downloaded.
 
 ### Set up Power BI Desktop
 
@@ -91,7 +90,7 @@ In this task, you will set up Power BI Desktop.
 
 	![](../images/dp500-create-a-dataflow-image1.png)
 
-1. Go to the **D:\DP500\Create a dataflow\Starter** folder.
+1. Go to the **D:\DP500\Allfiles\05\Starter** folder.
 
 1. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Create a dataflow.pbix** file.
 
@@ -101,7 +100,7 @@ In this task, you will set up Power BI Desktop.
 
 1. To save the file, on the **File** ribbon, select **Save as**.
 
-1. In the **Save As** window, go to the **D:\DP500\Create a dataflow\MySolution** folder.
+1. In the **Save As** window, go to the **D:\DP500\Allfiles\05\MySolution** folder.
 
 1. Select **Save**.
 
@@ -307,7 +306,7 @@ In this task, you will create a dataflow that represents a consistent definition
 
 1. In the **Custom column formula** box, enter the following formula:
 
-	*Tip: All formulas are available to copy and paste from the **D:\DP500\Create a dataflow\Assets\Snippets.txt**.*
+	*Tip: All formulas are available to copy and paste from the **D:\DP500\Allfiles\05\Assets\Snippets.txt**.*
 
 
 	```
@@ -360,7 +359,7 @@ In this task, you will create a dataflow that represents a consistent definition
 
 	*This formula transposes the numeric offset to a friendly text format.*
 
-	*Tip: All formulas are available to copy and paste from the **D:\DP500\Create a dataflow\Assets\Snippets.txt**.*
+	*Tip: All formulas are available to copy and paste from the **D:\DP500\Allfiles\05\Assets\Snippets.txt**.*
 
 1. To remove unnecessary columns, on the **Home** ribbon tab, from inside the **Manage Columns** group, select the **Choose Columns** icon.
 
@@ -386,7 +385,7 @@ In this task, you will create a dataflow that represents a consistent definition
 
 1. In the **Description** box, enter: **Consistent date definition for use in all Adventure Works datasets**
 
-1. Tip: The description is available to copy and paste from the **D:\DP500\Create a dataflow\Assets\Snippets.txt**.
+1. Tip: The description is available to copy and paste from the **D:\DP500\Allfiles\05\Assets\Snippets.txt**.
 
 	![](../images/dp500-create-a-dataflow-image30.png)
 

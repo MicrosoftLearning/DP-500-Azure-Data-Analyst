@@ -40,7 +40,7 @@ In this exercise, you will prepare your environment.
 
 1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
     
-	`git clone https://github.com/MicrosoftLearning/DP-500T00A-Designing-and-Implementing-Enterprise-Scale-Analytics-Solutions-Using-Microsoft-Azure DP500`
+	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
 
 1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded.
@@ -53,7 +53,7 @@ In this task, you will set up Power BI Desktop.
 
 	![](../images/dp500-enforce-model-security-image1.png)
 
-2. Go to the **D:\DP500\Enforce model security\Starter** folder.
+2. Go to the **D:\DP500\Allfiles\09\Starter** folder.
 
 3. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Enforce model security.pbix** file.
 
@@ -63,7 +63,7 @@ In this task, you will set up Power BI Desktop.
 
 5. To save the file, on the **File** ribbon, select **Save as**.
 
-6. In the **Save As** window, go to the **D:\DP500\Enforce model security\MySolution** folder.
+6. In the **Save As** window, go to the **D:\DP500\Allfiles\09\MySolution** folder.
 
 7. Select **Save**.
 

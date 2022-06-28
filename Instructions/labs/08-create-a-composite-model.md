@@ -38,7 +38,7 @@ In this exercise, you will prepare your environment.
 
 1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
     
-	`git clone https://github.com/MicrosoftLearning/DP-500T00A-Designing-and-Implementing-Enterprise-Scale-Analytics-Solutions-Using-Microsoft-Azure DP500`
+	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
 
 1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded.
@@ -51,7 +51,7 @@ In this task, you will open a pre-developed Power BI template file.
 
     ![](../images/dp500-create-a-composite-model-image1.png)
 
-1. Go to the **D:\DP500\Create a composite model\Starter** folder.
+1. Go to the **D:\DP500\Allfiles\08\Starter** folder.
 
 1. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Create a composite model.pbit** file. 
 
@@ -75,7 +75,7 @@ In this task, you will open a pre-developed Power BI template file.
 
 1. Save the file. On the **File** ribbon tab, select **Save as**.
 
-1. In the **Save As** window, go to the **D:\DP500\Create a composite model\MySolution** folder.
+1. In the **Save As** window, go to the **D:\DP500\Allfiles\08\MySolution** folder.
 
 1. Select **Save**.
 
@@ -131,7 +131,7 @@ In this task, you will add a table that stores sales targets sourced from an Exc
 
     ![](../images/dp500-create-a-composite-model-image9.png)
 
-1. In the **Open** window, go to the **D:\DP500\Create a composite model\Assets** folder.
+1. In the **Open** window, go to the **D:\DP500\Allfiles\08\Assets** folder.
 
 1. Select the **SalesTargets.xlsx** file.
 
@@ -257,7 +257,7 @@ In this task, you will add two measures to allow the analysis of sales target va
 
 1. In the formula bar, enter the following measure definition.
 
-    *Tip: All measure definitions are available to copy and paste from the* **D:\DP500\Create a composite model\Assets\Snippets.txt** *file.*
+    *Tip: All measure definitions are available to copy and paste from the* **D:\DP500\Allfiles\08\Assets\Snippets.txt** *file.*
 
 
     ```

@@ -235,7 +235,7 @@ Use Tabular Editor to create the **Time Intelligence** calculation group. It wil
 *Power BI Desktop does not support the creation or management of calculation
 groups.*
 
-   > **Tip**: All syntax is available to copy and paste from the D:\DP500\Create calculation groups\Assets\Snippets.txt.
+   > **Tip**: All syntax is available to copy and paste from the D:\DP500\Allfiles\Create calculation groups\Assets\Snippets.txt.
 
 1.  On the **External Tools** ribbon, select **Tabular Editor**.
 

@@ -36,7 +36,7 @@ In this exercise, you will prepare your environment.
 
 1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
     
-	`git clone https://github.com/MicrosoftLearning/DP-500T00A-Designing-and-Implementing-Enterprise-Scale-Analytics-Solutions-Using-Microsoft-Azure DP500`
+	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
 
 1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded.
@@ -133,7 +133,7 @@ In this task, you will open a pre-developed Power BI Desktop solution, set the d
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image13.png)
 
-2. Go to the **D:\DP500\Improve performance with hybrid tables\Starter** folder.
+2. Go to the **D:\DP500\Allfiles\10\Starter** folder.
 
 3. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Improve performance with hybrid tables.pbix** file.
 
@@ -181,7 +181,7 @@ In this task, you will open a pre-developed Power BI Desktop solution, set the d
 
 15. To save the file, on the **File** ribbon tab, select **Save as**.
 
-16. In the **Save As** window, go to the **D:\DP500\Improve performance with hybrid tables\MySolution** folder.
+16. In the **Save As** window, go to the **D:\DP500\Allfiles\10\MySolution** folder.
 
 17. Select **Save**.
 
@@ -511,7 +511,7 @@ In this task, you will add an order to the database.
 
 2. To open a script file, on the **File** menu, select **Open** > **File**.
 
-3. In the **Open File** window, go to the **D:\DP500\Improve performance with hybrid tables\Assets** folder.
+3. In the **Open File** window, go to the **D:\DP500\Allfiles\10\Assets** folder.
 
 4. Select the **1-InsertOrder.sql** file.
 

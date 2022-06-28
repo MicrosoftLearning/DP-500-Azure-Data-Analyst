@@ -33,7 +33,7 @@ In this lab, you learn how to:
 
 1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
     
-	`git clone https://github.com/MicrosoftLearning/DP-500T00A-Designing-and-Implementing-Enterprise-Scale-Analytics-Solutions-Using-Microsoft-Azure DP500`
+	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
 
 1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded.
@@ -103,13 +103,13 @@ environment, continue to the next task.*
 
 In this task, you will open a pre-developed Power BI Desktop solution.
 
-1. In File Explorer, go to the **D:\DP500\Use tools to optimize Power BI performance\Starter** folder.
+1. In File Explorer, go to the **D:\DP500\Allfiles\13\Starter** folder.
 
 2. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Use tools to optimize Power BI performance.pbix** file.
 
 3. To save the file, on the **File** ribbon tab, select **Save as**.
 
-4. In the **Save As** window, go to the **D:\DP500\Use tools to optimize Power BI performance\MySolution** folder.
+4. In the **Save As** window, go to the **D:\DP500\Allfiles\13\MySolution** folder.
 
 5. Select **Save**.
 
@@ -157,7 +157,7 @@ In this task, you will load BPA rules.
 
 3. Paste in the following script.
 
-	*Tip: The script is available to copy and paste from the **D:\DP500\****Use tools to optimize Power BI performance****\Assets\Snippets.txt**.*
+	*Tip: The script is available to copy and paste from the **D:\DP500\Allfiles\****Use tools to optimize Power BI performance****\Assets\Snippets.txt**.*
 
 	```
 	System.Net.WebClient w = new System.Net.WebClient(); 
@@ -242,7 +242,7 @@ In this task, you will open BPA and review the results of the checks.
 
 6. In the Expression Editor, modify the DAX formula to use the more efficient (and safe) [DIVIDE](https://docs.microsoft.com/dax/divide-function-dax) function, as follows.
 
-	*Tip: All formulas are available to copy and paste from the **D:\DP500\****Use tools to optimize Power BI performance****\Assets\Snippets.txt**.*
+	*Tip: All formulas are available to copy and paste from the **D:\DP500\Allfiles\****Use tools to optimize Power BI performance****\Assets\Snippets.txt**.*
 
 	```
 	DIVIDE ( [Profit], SUM ( 'Sales'[Sales Amount] ) )
@@ -365,7 +365,7 @@ In this task, you will optimize a query by using an improved measure formula.
 
 	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image32.png)
 
-2. In the **Open** window, go to the **D:\DP500\Use tools to optimize Power BI performance\Assets** folder.
+2. In the **Open** window, go to the **D:\DP500\Allfiles\13\Assets** folder.
 
 3. Select **Monthly Profit Growth.dax**.
 

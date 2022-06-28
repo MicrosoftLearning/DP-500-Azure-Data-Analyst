@@ -38,7 +38,7 @@ In this exercise, you will prepare your environment.
 
 1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
     
-	`git clone https://github.com/MicrosoftLearning/DP-500T00A-Designing-and-Implementing-Enterprise-Scale-Analytics-Solutions-Using-Microsoft-Azure DP500`
+	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
 
 1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded.
@@ -60,7 +60,7 @@ In this task, you will use SQL Server Management Studio (SSMS) to setup the data
 
 4. To open a script file, on the **File** menu, select **Open** > **File**.
 
-5. In the **Open File** window, go to the **D:\DP500\Monitor data in real time\Assets** folder.
+5. In the **Open File** window, go to the **D:\DP500\Allfiles\14\Assets** folder.
 
 6. Select the **1-Setup.sql** file.
 
@@ -98,13 +98,13 @@ In this task, you will open a pre-developed Power BI Desktop solution.
 
 	![](../images/dp500-monitor-data-in-real-time-image8.png)
 
-2. Go to the **D:\DP500\Monitor data in real time\Starter** folder.
+2. Go to the **D:\DP500\Allfiles\14\Starter** folder.
 
 3. To open a pre-developed Power BI Desktop file, double-click the **Internet Sales - Monitor data in real time.pbix** file.
 
 4. To save the file, on the **File** ribbon tab, select **Save as**.
 
-5. In the **Save As** window, go to the **D:\DP500\Monitor data in real time\MySolution** folder.
+5. In the **Save As** window, go to the **D:\DP500\Allfiles\14\MySolution** folder.
 
 6. Select **Save**.
 

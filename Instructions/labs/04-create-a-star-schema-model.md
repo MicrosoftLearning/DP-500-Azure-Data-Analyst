@@ -41,7 +41,7 @@ In this exercise, prepare your environment.
 
     ```
     rm -r dp500 -f
-    git clone https://github.com/MicrosoftLearning/DP-500T00A-Designing-and-Implementing-Enterprise-Scale-Analytics-Solutions-Using-Microsoft-Azure dp500
+    git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst dp500
     ```
 
 5. After the repo has been cloned, enter the following commands to change to the **setup** folder and run the **setup.ps1** script it contains:
@@ -74,7 +74,7 @@ In this exercise, prepare your environment.
 
 1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
     
-	`git clone https://github.com/MicrosoftLearning/DP-500T00A-Designing-and-Implementing-Enterprise-Scale-Analytics-Solutions-Using-Microsoft-Azure DP500`
+	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
 
 1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded.
@@ -563,7 +563,7 @@ In this task, you will organize the model diagram to easily understand the star 
 
 6. Optionally, to save the solution, at the top-left, select the disk icon.
 
-7. In the **Save As** window, go to the **D:\DP500\Create a star schema model\Solution** folder.
+7. In the **Save As** window, go to the **D:\DP500\Allfiles\Create a star schema model\Solution** folder.
 
 8. In the **File name** box, enter **Sales Analysis**.
 

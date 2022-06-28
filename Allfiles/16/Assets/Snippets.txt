@@ -1,6 +1,6 @@
 >> Web page file path
 ==================================================
-D:\DP500\Create reusable Power BI artifacts\Assets\us-resident-population-estimates-2020.html
+D:\DP500\Allfiles\Create reusable Power BI artifacts\Assets\us-resident-population-estimates-2020.html
 
 
 >> Sales per Capita measure definition

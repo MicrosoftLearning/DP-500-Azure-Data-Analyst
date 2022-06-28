@@ -48,7 +48,7 @@ In this exercise, you will open Power BI Report Builder to create and then save 
 
 1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
     
-	`git clone https://github.com/MicrosoftLearning/DP-500T00A-Designing-and-Implementing-Enterprise-Scale-Analytics-Solutions-Using-Microsoft-Azure DP500`
+	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
 
 1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded.
@@ -72,7 +72,7 @@ In this task, you will open Power BI Report Builder to create and then save a re
 
 	![](../images/dp500-create-a-paginated-report-image4.png)
 
-4. In the **Save As Report** window, navigate to the **D:\DP500\Create a paginated report\MySolution** folder.
+4. In the **Save As Report** window, navigate to the **D:\DP500\Allfiles\15\MySolution** folder.
 
 5. In the **Name** box, enter **Sales Order Report**.
 
@@ -145,7 +145,7 @@ In this task, you will configure the report header.
 
 	![](../images/dp500-create-a-paginated-report-image12.png)
 
-15. In the **Open** window, navigate to the **D:\DP500\Create a paginated report\Assets** folder, and then select the **AdventureWorksLogo.jpg** file.
+15. In the **Open** window, navigate to the **D:\DP500\Allfiles\15\Assets** folder, and then select the **AdventureWorksLogo.jpg** file.
 
 16. Select **Open**.
 
@@ -229,7 +229,7 @@ In this task, you will create a data source and dataset to retrieve a query resu
 
 	![](../images/dp500-create-a-paginated-report-image19.png)
 
-13. In the **Import Query** window, navigate to the **D:\DP500\Create a paginated report\Assets** folder, and then select the **SalesOrder.sql** file.
+13. In the **Import Query** window, navigate to the **D:\DP500\Allfiles\15\Assets** folder, and then select the **SalesOrder.sql** file.
 
 14. Select **Open**.
 
