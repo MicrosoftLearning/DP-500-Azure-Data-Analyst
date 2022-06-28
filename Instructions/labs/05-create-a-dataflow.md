@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Create a dataflow'
-    module: 'Create a dataflow'
+    module: 'Prepare data for tabular models in Power BI'
 ---
 
 # Create a dataflow

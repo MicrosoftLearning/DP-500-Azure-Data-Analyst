@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Improve query performance with aggregations'
-    module: 'Improve query performance with aggregations'
+    module: 'Optimize enterprise-scale tabular models'
 ---
 
 # Improve query performance with aggregations

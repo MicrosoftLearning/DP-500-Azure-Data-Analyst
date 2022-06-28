@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Create calculation groups'
-    module: 'Create calculation groups'
+    module: 'Design and build tabular models'
 ---
 # Create calculation groups
 

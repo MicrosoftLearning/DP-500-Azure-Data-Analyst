@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Improve performance with hybrid tables'
-    module: 'Improve performance with hybrid tables'
+    module: 'Optimize enterprise-scale tabular models'
 ---
 
 # Improve performance with hybrid tables

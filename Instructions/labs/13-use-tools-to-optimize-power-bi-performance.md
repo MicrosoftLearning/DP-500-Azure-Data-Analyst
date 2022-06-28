@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Use tools to optimize Power BI performance'
-    module: 'Use tools to optimize Power BI performance'
+    module: 'Optimize enterprise-scale tabular models'
 ---
 
 # Use tools to optimize Power BI performance

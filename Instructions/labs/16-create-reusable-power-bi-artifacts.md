@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Create reusable Power BI artifacts'
-    module: 'Create reusable Power BI artifacts'
+    module: 'Manage the analytics development lifecycle'
 ---
 
 # Create reusable Power BI artifacts

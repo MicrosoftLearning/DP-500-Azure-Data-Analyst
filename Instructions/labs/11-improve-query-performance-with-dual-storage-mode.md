@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Improve query performance with dual storage mode'
-    module: 'Improve query performance with dual storage mode'
+    module: 'Optimize enterprise-scale tabular models'
 ---
 
 # Improve query performance with dual storage mode

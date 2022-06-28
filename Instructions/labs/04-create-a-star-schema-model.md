@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Create a star schema model'
-    module: 'Create a star schema model'
+    module: 'Prepare data for tabular models in Power BI'
 ---
 
 # Create a star schema model

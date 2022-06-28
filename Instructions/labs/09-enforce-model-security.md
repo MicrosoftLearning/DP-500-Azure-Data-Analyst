@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Enforce model security'
-    module: 'Enforce model security'
+    module: 'Design and build tabular models'
 ---
 
 # Enforce model security

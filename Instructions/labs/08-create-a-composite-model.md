@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Create a composite model'
-    module: 'Create a composite model'
+    module: 'Design and build tabular models'
 ---
 
 # Create a composite model

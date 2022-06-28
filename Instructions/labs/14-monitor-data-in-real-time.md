@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Monitor data in real time'
-    module: 'Monitor data in real time'
+    module: 'Implement advanced data visualization techniques by using Power BI'
 ---
 
 # Monitor data in real time
