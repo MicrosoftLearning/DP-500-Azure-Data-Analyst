@@ -1,7 +1,3 @@
-# Course under development!
-
-<!---
-
 # DP-500: Designing and Implementing Enterprise Scale Analytics Solutions Using Microsoft Azure
 
 
