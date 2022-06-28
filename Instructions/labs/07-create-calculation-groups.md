@@ -34,7 +34,7 @@ In this lab, you learn how to:
 
 1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
     
-	`git clone https://github.com/MicrosoftLearning/DP-500T00A-Designing-and-Implementing-Enterprise-Scale-Analytics-Solutions-Using-Microsoft-Azure DP500`
+	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
 
 1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded.
@@ -105,16 +105,14 @@ can edit a BIM file without accessing any data in the model.*
 
 Now you'll open a pre-developed Power BI Desktop solution.
 
-1.  In File Explorer, go to the **D:\\DP500\\Create calculation
-    groups\\Starter** folder.
+1.  In File Explorer, go to the **D:\\DP500\\07\\Starter** folder.
 
 2.  To open a pre-developed Power BI Desktop file, double-click the **Sales
     Analysis - Create calculation groups.pbix** file.
 
 3.  To save the file, on the **File** ribbon tab, select **Save as**.
 
-4.  In the **Save As** window, go to the **D:\\DP500\\Create calculation
-    groups\\MySolution** folder.
+4.  In the **Save As** window, go to the **D:\\DP500\\07\\MySolution** folder.
 
 5.  Select **Save**.
 
@@ -183,7 +181,7 @@ Create three sales-related measures in preparation for the creation of your calc
     following measure definition, and then press **Enter**.
 
     Tip: All formulas are available to copy and paste from the
-    **D:\\DP500\\Create calculation groups\\Assets\\Snippets.txt**.
+    **D:\\DP500\\07\\Assets\\Snippets.txt**.
 
     DAX
 
@@ -342,7 +340,7 @@ groups.*
     ```
 
     Tip: The format string expression is available to copy and paste from the
-    **D:\\DP500\\Create calculation groups\\Assets\\Snippets.txt**.
+    **D:\\DP500\\07\\Assets\\Snippets.txt**.
 
     ![Graphical user interface, text, application Description automatically
     generated](../images/image24.png)
