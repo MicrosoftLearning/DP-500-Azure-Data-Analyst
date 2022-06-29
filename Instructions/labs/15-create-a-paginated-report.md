@@ -51,9 +51,7 @@ In this exercise, you will open Power BI Report Builder to create and then save 
 
 1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
     
-    ```
-    git clone --no-checkout https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst         DP500
-    ```
+	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
 1. When the repository has been cloned, close the command prompt window. 
    
