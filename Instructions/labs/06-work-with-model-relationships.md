@@ -30,11 +30,13 @@ In this exercise, you will open a pre-developed Power BI Desktop solution to lea
 1. On the start menu, open the Command Prompt
    
     ![](../images/command-prompt.png)
+
 2. In the command prompt window, navigate to the D drive by typing:
 
     `d:` 
 
    Press enter.
+   
     ![](../images/command-prompt-2.png)
 
 
