@@ -45,7 +45,9 @@ In this exercise, you will open a pre-developed Power BI Desktop solution to lea
 	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
 
-1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded.
+1. When the repository has been cloned, close the command prompt window. 
+   
+1. Open the D drive in the file explorer to ensure the files have been downloaded.
 
 ### Set up Power BI Desktop
 

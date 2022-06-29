@@ -25,21 +25,27 @@ In this exercise, you will prepare your environment.
 ### Clone the repository for this course
 
 1. On the start menu, open the Command Prompt
+
     ![](../images/command-prompt.png)
+
 1. In the command prompt window, navigate to the D drive by typing:
 
     `d:` 
 
    Press enter.
+
     ![](../images/command-prompt-2.png)
 
 
 1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
     
-	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
+    ```
+    git clone --no-checkout https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst         DP500
+    ```
    
-
-1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded.
+1. When the repository has been cloned, close the command prompt window. 
+   
+1. Open the D drive in the file explorer to ensure the files have been downloaded.
 
 ### Set up the Power BI service
 
