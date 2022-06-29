@@ -28,8 +28,9 @@ In this exercise, you will open a pre-developed Power BI Desktop solution to lea
 ### Clone the repository for this course
 
 1. On the start menu, open the Command Prompt
+   
     ![](../images/command-prompt.png)
-1. In the command prompt window, navigate to the D drive by typing:
+2. In the command prompt window, navigate to the D drive by typing:
 
     `d:` 
 
@@ -37,7 +38,7 @@ In this exercise, you will open a pre-developed Power BI Desktop solution to lea
     ![](../images/command-prompt-2.png)
 
 
-1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
+3. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
     
 	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
