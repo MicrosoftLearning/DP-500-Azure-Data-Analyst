@@ -56,7 +56,7 @@ Download and install Tabular Editor 2 to enable the creation of calculation grou
 **Important:** *If you have already installed Tabular Editor 2 in your VM
 environment, continue to the next task.*
 
-*Tabular Editor is an editor alternative tool for authoring tabular models for Analysis Services and Power BI. Tabular Editor 2 is an open source project that can edit a BIM file without accessing any data in the model.*
+*Tabular Editor is an alternative tool for authoring tabular models for Analysis Services and Power BI. Tabular Editor 2 is an open source project that can edit a BIM file without accessing any data in the model.*
 
 1.  Ensure Power BI Desktop is closed.
 
