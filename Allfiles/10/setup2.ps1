@@ -24,31 +24,9 @@ Connect-AzAccount -Credential $AzCredential
 $Location = Get-AzResourceGroup -Name $ResourceGroupName | Select-Object -ExpandProperty location
 $storageName = ('dp500sa' + (Get-Random -Minimum 0 -Maximum 999999 ).ToString('000000')).ToLower()
 $ServerName = ('dp500server-' + (Get-Random -Minimum 0 -Maximum 999999 ).ToString('000000')).ToLower()
-$FolderName = "C:\DP500"
+$FolderName = "D:\DP500"
 
-#Cloning GitHub repository
-#TODO: Shannon, we may need to remove this entire try/catch section. Please make sure to update the $FolderName variable to where the repo is pointing to in the lab VM
-
-try
-{
-    If (Test-Path $FolderName)
-    {
-        Remove-Item $FolderName -Recurse -Force -Confirm:$false
-    }
-    else
-    {
-        New-Item -Path $FolderName -ItemType Directory
-    }
-    git clone "https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst.git" $FolderName -q
-    start-sleep -s 5
-}
-catch
-{
-    $ErrorMessage = $_.Exception.Message
-    Write-Output $ErrorMessage
-}
-
-#Create storage account
+#Create storage accountadmin
 
 $StorageHT = @{  
      ResourceGroupName = $ResourceGroupName
@@ -70,7 +48,7 @@ New-AzStorageContainer -Name $ContainerName -Context $Context -Permission Blob
 Start-Sleep -s 5
 
 $Blob1HT = @{  
-    File             = "$($FolderName)\Allfiles\DatabaseBackup\AdventureWorksDW2022-DP500.bacpac"          
+    File             = "$($FolderName)\Allfiles\00-Setup\DatabaseBackup\AdventureWorksDW2022-DP500.bacpac"          
     Container        = $ContainerName  
     Blob             = "AdventureWorksDW2022-DP500.bacpac"  
     Context          = $Context  

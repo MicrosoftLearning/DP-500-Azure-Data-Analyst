@@ -24,7 +24,7 @@ In this exercise, you will prepare your environment.
 
 ### Clone the repository for this course
 
-1. On the start menu, open the Command Prompt
+1. On the start menu, open the Command Prompt.
 
     ![](../images/command-prompt.png)
 
@@ -44,6 +44,55 @@ In this exercise, you will prepare your environment.
 1. When the repository has been cloned, close the command prompt window. 
    
 1. Open the D drive in the file explorer to ensure the files have been downloaded.
+### Deploy an Azure SQL Database 
+
+In this task, you'll create an Azure SQL database that you'll use as a data source for Power BI. Running the setup PowerShell script will create the Azure SQL database server and load the AdventureWorksDW2022 database.
+
+1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
+
+	![](../images/dp500-improve-performance-with-hybrid-tables-image13.png)
+
+2. Go to the **D:\DP500\Allfiles\10** folder.
+
+3. Double click to open the **setup2.ps1** file script.
+    - Read through the script in notepad if you're interested in understanding what resources the script is setting up. The lines beginning with # denote what the script is doing.
+4. **Copy the contents of the file** onto the clipboard.
+5. In the search box on the taskbar, type `PowerShell`.  When the search results appear, select **Run as administrator**
+![](../images/run-powershell-admin.png)
+6. **Paste** the contents of your clipboard (the setup script from the notepad) into PowerShell. Press **Enter**.
+7. When prompted, enter your Azure account username, password, and resource group. Press enter. The script will take approximately 10-15 minutes to run.
+    *Note: This lab requires a resource group to create an Azure SQL database. If you do not have a resource group provided in a hosted lab environment, [create a resource group](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal#create-resource-groups) in your Azure subscription.*
+8. After the script has completed, close the PowerShell window.
+
+### Set up the Azure SQL Database
+
+In this task, you will set up the Azure SQL Database to allow connections from your virtual machine's (VM's) IP address. This script will take about 10 minutes to run after you enter your username, password, and resource group.
+
+1. In a web browser, go to [https://portal.azure.com](https://portal.azure.com/).
+
+2. If prompted to take a tour, select **Maybe later**.
+
+	![](../images/dp500-improve-performance-with-hybrid-tables-image8.png)
+
+3. Select the **SQL databases** tile.
+
+	![](../images/dp500-improve-performance-with-hybrid-tables-image9.png)
+
+4. In the list of SQL databases, select the **AdventureWorksDW2022-DP500** database.
+
+5. In the action bar on the Overview tab, select **Set server firewall**.
+
+	![](../images/dp500-improve-performance-with-hybrid-tables-image10.png)
+
+6. In the firewall settings, select **Add client IP**.
+
+	![](../images/dp500-improve-performance-with-hybrid-tables-image11.png)
+
+7. Select **Save**.
+
+	![](../images/dp500-improve-performance-with-hybrid-tables-image12.png)
+
+8. Keep the Azure portal web browser session open. You will need to copy the database connection string in the **Set up Power BI Desktop task**.
 
 ### Set up the Power BI service
 
@@ -99,36 +148,6 @@ In this task, you will create a workspace.
 
 	*Once created, the Power BI service opens the workspace. You will return to this workspace later in this lab.*
 
-### Set up the Azure SQL Database
-
-In this task, you will set up the Azure SQL Database to allow connections from your virtual machine's (VM's) IP address.
-
-1. In a web browser, go to [https://portal.azure.com](https://portal.azure.com/).
-
-2. If prompted to take a tour, select **Maybe later**.
-
-	![](../images/dp500-improve-performance-with-hybrid-tables-image8.png)
-
-3. Select the **SQL databases** tile.
-
-	![](../images/dp500-improve-performance-with-hybrid-tables-image9.png)
-
-4. In the list of SQL databases, select the **AdventureWorksDW2022-DP500** database.
-
-5. In the action bar, select **Set server firewall**.
-
-	![](../images/dp500-improve-performance-with-hybrid-tables-image10.png)
-
-6. In the firewall settings, select **Add client IP**.
-
-	![](../images/dp500-improve-performance-with-hybrid-tables-image11.png)
-
-7. Select **Save**.
-
-	![](../images/dp500-improve-performance-with-hybrid-tables-image12.png)
-
-8. Close the Azure portal web browser session.
-
 ### Set up Power BI Desktop
 
 In this task, you will open a pre-developed Power BI Desktop solution, set the data source settings and permissions, and then refresh the data model.
@@ -165,13 +184,16 @@ In this task, you will open a pre-developed Power BI Desktop solution, set the d
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image18.png)
 
-10. In the **SQL Server database** window, enter the username and password from the Resources tab of the VM, under Resource Group.
+10. In the **SQL Server database** window, enter the SQL Server database username and password. 
 
-	![](../images/dp500-improve-performance-with-hybrid-tables-image15b.png)
+    Username: `sqladmin`
 
-11. Select **OK**.
+    Password: `P@ssw0rd01`
 
-	![](../images/dp500-improve-performance-with-hybrid-tables-image19.png)
+    ![](../images/dp500-improve-performance-with-hybrid-tables-image15b.png)
+
+11.  Select **OK**.
+    ![](../images/dp500-improve-performance-with-hybrid-tables-image19.png)
 
 12. In the **Data source settings** window, select **Close**.
 
