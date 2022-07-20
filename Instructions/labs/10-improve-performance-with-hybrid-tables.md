@@ -41,12 +41,11 @@ In this exercise, you will prepare your environment.
     
 	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
-1. When the repository has been cloned, close the command prompt window. 
-   
-1. Open the D drive in the file explorer to ensure the files have been downloaded.
+1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded. Do not close the command prompt window, you will use it in the next task, Deploy an Azure SQL Database.
+
 ### Deploy an Azure SQL Database 
 
-In this task, you'll create an Azure SQL database that you'll use as a data source for Power BI. Running the setup PowerShell script will create the Azure SQL database server and load the AdventureWorksDW2022 database.
+In this task, you'll create an Azure SQL database that you'll use as a data source for Power BI. Running the setup script will create the Azure SQL database server and load the AdventureWorksDW2022 database.
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
