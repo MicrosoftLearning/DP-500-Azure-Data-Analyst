@@ -57,15 +57,33 @@ In this task, you'll create an Azure SQL database that you'll use as a data sour
     - Read through the script in notepad if you're interested in understanding what resources the script is setting up. The lines beginning with # denote what the script is doing.
     - Close the script.
 
-5. In the search box on the taskbar, type `PowerShell`.  When the search results appear, select **Run as administrator**
-![](../images/run-powershell-admin.png)
-	- If prompted, select Yes to allow this app to make changes to your device.
-6. In PowerShell, enter the following text to run the script. 
-	- ` cd D:\DP500\Allfiles\10 .\setup2.ps1`
-	- Press **Enter**.
-7. When prompted, enter your Azure account username, password, and resource group. Press enter. The script will take approximately 10-15 minutes to run.
+5. In the search box on the taskbar, type `PowerShell`.  
+   
+   When the search results appear, select **Run as administrator**
+    
+	![](../images/run-powershell-admin.png)
+	
+	*If prompted, select Yes to allow this app to make changes to your device.*
+1. In PowerShell, enter the following 2 lines of text to run the script. 
+	
+	` cd D:\DP500\Allfiles\10`
+
+	Press **Enter**.
+
+	`.\setup2.ps1`
+	
+	Press **Enter**
+
+    ![](../images/powershell-script.png)
+
+2. When prompted, enter your **Azure account username**, **password**, and **resource group name**. Press **Enter**. 
+
+    ![](../images/powershell-enter-account-info.png)
+
+	The script will take approximately 10-15 minutes to run.
+
     *Note: This lab requires a resource group to create an Azure SQL database. If you do not have a resource group provided in a hosted lab environment, [create a resource group](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal#create-resource-groups) in your Azure subscription.*
-8. After the script has completed, close the PowerShell window.
+3. After the script has completed, close the PowerShell window.
 
 ### Set up the Azure SQL Database
 
