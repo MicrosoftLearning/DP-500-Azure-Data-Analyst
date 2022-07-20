@@ -55,10 +55,14 @@ In this task, you'll create an Azure SQL database that you'll use as a data sour
 
 3. Double click to open the **setup2.ps1** file script.
     - Read through the script in notepad if you're interested in understanding what resources the script is setting up. The lines beginning with # denote what the script is doing.
-4. **Copy the contents of the file** onto the clipboard.
+    - Close the script.
+
 5. In the search box on the taskbar, type `PowerShell`.  When the search results appear, select **Run as administrator**
 ![](../images/run-powershell-admin.png)
-6. **Paste** the contents of your clipboard (the setup script from the notepad) into PowerShell. Press **Enter**.
+	- If prompted, select Yes to allow this app to make changes to your device.
+6. In PowerShell, enter the following text to run the script. 
+	- ` cd D:\DP500\Allfiles\10 .\setup2.ps1`
+	- Press **Enter**.
 7. When prompted, enter your Azure account username, password, and resource group. Press enter. The script will take approximately 10-15 minutes to run.
     *Note: This lab requires a resource group to create an Azure SQL database. If you do not have a resource group provided in a hosted lab environment, [create a resource group](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal#create-resource-groups) in your Azure subscription.*
 8. After the script has completed, close the PowerShell window.
