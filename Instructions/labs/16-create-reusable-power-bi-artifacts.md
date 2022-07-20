@@ -148,7 +148,7 @@ In this task, you will publish the data model.
 
 ## Create a specialized dataset
 
-In this exercise, you will create a specialized dataset to allow the analysis of US sales per capita. Because the core datasets doesn't contain population values, you will add a new table to extend the model.
+In this exercise, you will create a specialized dataset to allow the analysis of US sales per capita. Because the core dataset doesn't contain population values, you will add a new table to extend the model.
 
 ### Create a live connection
 
