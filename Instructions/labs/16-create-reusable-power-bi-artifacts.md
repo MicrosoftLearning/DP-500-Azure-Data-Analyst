@@ -341,7 +341,7 @@ In this task, you will add a table of US population data sourced from a web page
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image48.png)
 
-	*Power B Desktop applies the query to create a model table. It adds a new table that imports population data to the model.*
+	*Power BI Desktop applies the query to create a model table. It adds a new table that imports population data to the model.*
 
 18. Reposition the **US Population** table near the **Reseller** table.
 
