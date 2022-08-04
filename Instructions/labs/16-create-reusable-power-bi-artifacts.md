@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Create reusable Power BI artifacts'
+    title: 'Create reusable Power BI assets'
     module: 'Manage the analytics development lifecycle'
 ---
 
-# Create reusable Power BI artifacts
+# Create reusable Power BI assets
 
 ## Overview
 
@@ -18,7 +18,7 @@ In this lab, you learn how to:
 
 - Create a local DirectQuery model.
 
-- Use lineage view to discover dependent Power BI artifacts.
+- Use lineage view to discover dependent Power BI assets.
 
 ## Get started
 
@@ -444,7 +444,7 @@ In this task, you will review the specialized dataset in the Power BI service.
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image63.png)
 
-	*The **View lineage** option supports finding out dependencies between Power BI artifacts. That's important, for example, if you are going to publish changes to a core dataset. Lineage view will tell you the dependent datasets that might require testing.*
+	*The **View lineage** option supports finding out dependencies between Power BI assets. That's important, for example, if you are going to publish changes to a core dataset. Lineage view will tell you the dependent datasets that might require testing.*
 
 4. In lineage view, notice the connection between the report, the **US Sales Analysis** dataset, and the **Sales Analysis - Create reusable Power BI artifacts** dataset.
 
