@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Create a paginated report'
-    module: 'Implement advanced data visualization techniques by using Power BI'
----
-
 # Create a paginated report
 
 ## Overview
