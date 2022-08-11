@@ -1,8 +1,7 @@
 # DP-500: Designing and Implementing Enterprise Scale Analytics Solutions Using Microsoft Azure
 
 - **Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
-
-Access the [content directory](https://microsoftlearning.github.io/DP-500-Azure-Data-Analyst/) for a list of ILT modules and their associated labs.
+- Direct students to the [content directory](https://microsoftlearning.github.io/DP-500-Azure-Data-Analyst/) for a list of ILT modules and their associated labs.
 
 ## What are we doing?
 
