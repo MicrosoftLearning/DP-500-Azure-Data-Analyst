@@ -144,7 +144,7 @@ In this task, you will review the data model.
 
 ## Create static roles
 
-In this exercise, you will create and validate static roles, and then map security principals to the dataset roles.
+In this exercise, you will create and validate static roles, and then see how you would map security principals to the dataset roles.
 
 ### Create static roles
 
@@ -251,7 +251,7 @@ In this task, you will publish the report.
 
 ### Configure row-level security
 
-In this task, you will configure row-level security in the Power BI service.
+In this task, you will see how to configure row-level security in the Power BI service. This task relies on the existence of a **Salespeaople_Australia** security group in the tenant you are working in. Please read through the tasks, but note that you will not be able to complete them in the absence of the existence of the security group. After reading through, proceed to the Clean Up task.
 
 1. Switch to the Power BI service (web browser).
 
@@ -270,7 +270,9 @@ In this task, you will configure row-level security in the Power BI service.
 
 	![](../images/dp500-enforce-model-security-image33.png)
 
-5. In the **Members** box, commence entering **Salespeople_Australia**, and when the value appears in the list, select it.
+5. In the **Members** box, commence entering **Salespeople_Australia**. 
+
+    *Steps 5 through 8 are for demonstration purposes only, as they rely on the creation or existence of a Salespeople_Australia security group. If you have permissions and the knowledge to create security groups, please feel free to proceed. Otherwise, continue to the Clean Up task.*
 
 	![](../images/dp500-enforce-model-security-image34.png)
 
