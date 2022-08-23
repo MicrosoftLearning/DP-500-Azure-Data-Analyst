@@ -185,7 +185,7 @@ In this task, you will download a Power BI data source file from Synapse Studio.
 
 	![](../images/dp500-create-a-star-schema-model-image4.png)
 
-3. In the **Develop** pane, expand **Power BI**, then expand the workspace, and then select **Power BI datasets**.
+3. In the **Develop** pane, expand **Power BI**, then expand the workspace, and then select **Power BI datasets**. If not present, Click **Publish all** to publish Workspace and refresh the browser.
 
 	![](../images/dp500-create-a-star-schema-model-image5.png)
 
