@@ -71,7 +71,7 @@ In this lab, the data warehouse is hosted in a dedicated SQL pool in Azure Synap
     
 3. Expand the **dbo.FactInternetSales** table and its **Columns** folder to see the columns in this table. Note that many of the columns are *keys* that reference rows in the dimension tables. Others are numeric values (*measures*) for analysis.
     
-    The keys are used to relate a fact table to one or more dimension tables, often in a *star* schema; in which the fact table is directly related to each dimension table (forming a multi-pointed "star" with the fact table at the center).
+    The keys are used to relate a fact table to one or more dimension tables, often ina *star* schema; in which the fact table is directly related to each dimension table (forming a multi-pointed "star" with the fact table at the center).
 
 4. View the columns for the **dbo.DimPromotion** table, and note that it has a unique **PromotionKey** that uniquely identifies each row in the table. It also has an **AlternateKey**.
 
