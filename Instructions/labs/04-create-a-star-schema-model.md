@@ -111,11 +111,14 @@ In this task, you will set up Power BI.
 1. Do any remaining tasks to complete the trial setup.
 
 	*Tip: The Power BI web browser experience is known as the **Power BI service**.*
+	
 1. Select Workspaces and **Create a Workspace**.
     
     ![](../images/dp500-create-a-star-schema-model-image2a.png)
 
-1. Create a workspace named DP500 labs (may need to make unique workspace name) and select **Save**.
+1. Create a workspace named DP500 labs and select **Save**.
+
+    *Note: The workspace name must be unique. If you're getting an error, update the workspace name.*
 
     ![](../images/dp500-create-a-star-schema-model-image2b.png)
 
@@ -175,6 +178,7 @@ In this exercise, you will develop a DirectQuery model to support Power BI analy
 In this task, you will download a Power BI data source file from Synapse Studio.
 
 1. In Microsoft Edge, navigate to **Synapse Studio**.
+
     ![](../images/dp500-create-a-star-schema-model-image4a.png)
 
 2. At the left, select the **Develop** hub.
