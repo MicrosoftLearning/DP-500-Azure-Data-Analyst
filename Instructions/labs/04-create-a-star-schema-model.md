@@ -123,7 +123,7 @@ In this task, you will set up Power BI.
 
     <img width="80" alt="image" src="https://user-images.githubusercontent.com/77289548/166337862-538a1900-ec67-44d1-905f-d404c5b0a58a.png">
 
-1. Close Power BI Desktop. Do not save your file.
+1. Go to Power BI Desktop and select **File** then **Options and settings** then **Options** then **Security** and under Authentication Browser check **Use my default web browser** and select **OK**. Close Power BI Desktop. Do not save your file.
 
 	*You will open Power BI Desktop again in the next exercise.*
 
