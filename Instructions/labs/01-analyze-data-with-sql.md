@@ -174,7 +174,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
 
     ```sql
     SELECT YEAR(OrderDate) AS OrderYear,
-           COUNT(*) AS OrdredItems
+           COUNT(*) AS OrderedItems
     FROM
         OPENROWSET(
             BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/year=*/**',
