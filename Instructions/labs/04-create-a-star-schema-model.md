@@ -542,7 +542,7 @@ In this task, you will organize the model diagram to easily understand the star 
 
 	![](../images/dp500-create-a-star-schema-model-image43.png)
 
-2. To resize the model diagram to fit to screen, at the bottom-left, select the **Fit to screen** icon.
+2. To resize the model diagram to fit to screen, at the bottom-right, select the **Fit to screen** icon.
 
 	![](../images/dp500-create-a-star-schema-model-image44.png)
 
