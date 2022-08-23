@@ -567,7 +567,7 @@ In this task, you will organize the model diagram to easily understand the star 
 
 6. Optionally, to save the solution, at the top-left, select the disk icon.
 
-7. In the **Save As** window, go to the **D:\DP500\Allfiles\Create a star schema model\Solution** folder.
+7. In the **Save As** window, go to the **D:\DP500\Allfiles\04\MySolution** folder.
 
 8. In the **File name** box, enter **Sales Analysis**.
 
