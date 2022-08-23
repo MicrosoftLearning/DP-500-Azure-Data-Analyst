@@ -354,7 +354,7 @@ Now that you've explored various ways to query files in the data lake by using S
 
 1. On the **Develop** page, create a new empty SQL query.
 2. Ensure that the script is connected to the **Built-in** SQL pool and the **Sales** database.
-3. Enter the following SQL code:
+3. Enter the following SQL code and run it:
 
     ```sql
     SELECT YEAR(OrderDate) AS OrderYear,
