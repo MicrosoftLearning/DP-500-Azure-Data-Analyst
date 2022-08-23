@@ -115,7 +115,7 @@ In this task, you will set up Power BI.
     
     ![](../images/dp500-create-a-star-schema-model-image2a.png)
 
-1. Create a workspace named DP500 labs and select **Save**.
+1. Create a workspace named DP500 labs (may need to make unique workspace name) and select **Save**.
 
     ![](../images/dp500-create-a-star-schema-model-image2b.png)
 
