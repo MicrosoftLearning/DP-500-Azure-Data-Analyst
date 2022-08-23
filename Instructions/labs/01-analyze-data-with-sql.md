@@ -308,7 +308,7 @@ By defining an external data source in a database, you can use it to reference t
 
 ### Create an external table
 
-The external data source makes it easier to access the files in the data lake, but most data analysts using SQ are used to working with tables in a database. Fortunately, you can also define external file formats and external tables that encapsulate rowsets from files in database tables.
+The external data source makes it easier to access the files in the data lake, but most data analysts using SQL are used to working with tables in a database. Fortunately, you can also define external file formats and external tables that encapsulate rowsets from files in database tables.
 
 1. Replace the SQL code with the following statement to define an external data format for CSV files, and an external table that references the CSV files, and run it:
 
