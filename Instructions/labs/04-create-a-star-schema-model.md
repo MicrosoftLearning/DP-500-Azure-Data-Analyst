@@ -550,7 +550,7 @@ In this task, you will organize the model diagram to easily understand the star 
 
 	![](../images/dp500-create-a-star-schema-model-image44.png)
 
-3. Drag the tables into position so that the **Sales** fact table is located at the middle of the diagram, and the remain tables, which are dimension tables, are located around the fact table.
+3. Drag the tables into position so that the **Sales** fact table is located at the middle of the diagram, and the remaining tables, which are dimension tables, are located around the fact table.
 
 4. If any of the dimension tables aren't related to the fact table, use the following instructions to create a relationship:
 
