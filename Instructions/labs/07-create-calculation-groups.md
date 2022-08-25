@@ -344,7 +344,7 @@ groups.*
     ```
 
     Tip: The format string expression is available to copy and paste from the
-    **D:\\DP500\\07\\Assets\\Snippets.txt**.
+    **D:\\DP500\\Allfiles\\07\\Assets\\Snippets.txt**.
 
     ![Graphical user interface, text, application Description automatically
     generated](../images/image24.png)
