@@ -105,7 +105,7 @@ In this task, you will set up the Azure SQL Database to allow connections from y
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image10.png)
 
-6. In the firewall settings, select **Add client IP**.
+6. In the firewall rules, select **Add your client IPv4 address**.
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image11.png)
 
