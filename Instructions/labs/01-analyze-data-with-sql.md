@@ -67,7 +67,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 9. Close the preview, and then use the **&#8593;** button to navigate back to the **sales** folder.
 10. In the **sales** folder, open the **json** folder and observe that it contains some sample sales orders in .json files. Preview any of these files to see the JSON format used for a sales order.
 11. Close the preview, and then use the **&#8593;** button to navigate back to the **sales** folder.
-12. In the **sales** folder, open the **parquet** folder and observe that it contains a subfolder for each year (2019-2021), in each of which a file named **orders.snappy.parquet** contains the order data for that year. Preview any of these files to see the JSON format used for a sales order.
+12. In the **sales** folder, open the **parquet** folder and observe that it contains a subfolder for each year (2019-2021), in each of which a file named **orders.snappy.parquet** contains the order data for that year. 
 13. Return to the **sales** folder so you can see the **csv**, **json**, and **parquet** folders.
 
 ### Use SQL to query CSV files
@@ -156,7 +156,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
 
     ```sql
     SELECT YEAR(OrderDate) AS OrderYear,
-           COUNT(*) AS OrdredItems
+           COUNT(*) AS OrderedItems
     FROM
         OPENROWSET(
             BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/**',
@@ -174,7 +174,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
 
     ```sql
     SELECT YEAR(OrderDate) AS OrderYear,
-           COUNT(*) AS OrdredItems
+           COUNT(*) AS OrderedItems
     FROM
         OPENROWSET(
             BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/year=*/**',
@@ -276,7 +276,7 @@ By defining an external data source in a database, you can use it to reference t
 
 3. Modify the script properties to change its name to **Create Sales DB**, and publish it.
 4. Ensure that the script is connected to the **Built-in** SQL pool and the **master** database, and then run it.
-5. Switch back to the **Data** page and use the **&#8635;** button at the top right of Synapse Studio to refresh the page. Then view the **Workspace** tab in the **Data** pane, where a **SQL database** list is no displayed. Expand this list to verify that the **Sales** database has been created.
+5. Switch back to the **Data** page and use the **&#8635;** button at the top right of Synapse Studio to refresh the page. Then view the **Workspace** tab in the **Data** pane, where a **SQL database** list is now displayed. Expand this list to verify that the **Sales** database has been created.
 6. Expand the **Sales** database, its **External Resources** folder, and the **External data sources** folder under that to see the **sales_data** external data source you created.
 7. In the **...** menu for the **Sales** database, select **New SQL script** > **Empty script**. Then in the new script pane, enter and run the following query:
 
@@ -308,7 +308,7 @@ By defining an external data source in a database, you can use it to reference t
 
 ### Create an external table
 
-The external data source makes it easier to access the files in the data lake, but most data analysts using SQ are used to working with tables in a database. Fortunately, you can also define external file formats and external tables that encapsulate rowsets from files in database tables.
+The external data source makes it easier to access the files in the data lake, but most data analysts using SQL are used to working with tables in a database. Fortunately, you can also define external file formats and external tables that encapsulate rowsets from files in database tables.
 
 1. Replace the SQL code with the following statement to define an external data format for CSV files, and an external table that references the CSV files, and run it:
 
@@ -354,7 +354,7 @@ Now that you've explored various ways to query files in the data lake by using S
 
 1. On the **Develop** page, create a new empty SQL query.
 2. Ensure that the script is connected to the **Built-in** SQL pool and the **Sales** database.
-3. Enter the following SQL code:
+3. Enter and run the following SQL code:
 
     ```sql
     SELECT YEAR(OrderDate) AS OrderYear,

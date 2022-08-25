@@ -111,11 +111,14 @@ In this task, you will set up Power BI.
 1. Do any remaining tasks to complete the trial setup.
 
 	*Tip: The Power BI web browser experience is known as the **Power BI service**.*
+	
 1. Select Workspaces and **Create a Workspace**.
     
     ![](../images/dp500-create-a-star-schema-model-image2a.png)
 
 1. Create a workspace named DP500 labs and select **Save**.
+
+    *Note: The workspace name must be unique. If you're getting an error, update the workspace name.*
 
     ![](../images/dp500-create-a-star-schema-model-image2b.png)
 
@@ -175,13 +178,14 @@ In this exercise, you will develop a DirectQuery model to support Power BI analy
 In this task, you will download a Power BI data source file from Synapse Studio.
 
 1. In Microsoft Edge, navigate to **Synapse Studio**.
+
     ![](../images/dp500-create-a-star-schema-model-image4a.png)
 
 2. At the left, select the **Develop** hub.
 
 	![](../images/dp500-create-a-star-schema-model-image4.png)
 
-3. In the **Develop** pane, expand **Power BI**, then expand the workspace, and then select **Power BI datasets**.
+3. In the **Develop** pane, expand **Power BI**, then expand the workspace, and then select **Power BI datasets**. If not present, Click **Publish all** to publish Workspace and refresh the browser.
 
 	![](../images/dp500-create-a-star-schema-model-image5.png)
 
@@ -542,11 +546,11 @@ In this task, you will organize the model diagram to easily understand the star 
 
 	![](../images/dp500-create-a-star-schema-model-image43.png)
 
-2. To resize the model diagram to fit to screen, at the bottom-left, select the **Fit to screen** icon.
+2. To resize the model diagram to fit to screen, at the bottom-right, select the **Fit to screen** icon.
 
 	![](../images/dp500-create-a-star-schema-model-image44.png)
 
-3. Drag the tables into position so that the **Sales** fact table is located at the middle of the diagram, and the remain tables, which are dimension tables, are located around the fact table.
+3. Drag the tables into position so that the **Sales** fact table is located at the middle of the diagram, and the remaining tables, which are dimension tables, are located around the fact table.
 
 4. If any of the dimension tables aren't related to the fact table, use the following instructions to create a relationship:
 
@@ -563,7 +567,7 @@ In this task, you will organize the model diagram to easily understand the star 
 
 6. Optionally, to save the solution, at the top-left, select the disk icon.
 
-7. In the **Save As** window, go to the **D:\DP500\Allfiles\Create a star schema model\Solution** folder.
+7. In the **Save As** window, go to the **D:\DP500\Allfiles\04\MySolution** folder.
 
 8. In the **File name** box, enter **Sales Analysis**.
 

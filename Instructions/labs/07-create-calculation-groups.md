@@ -109,14 +109,14 @@ can edit a BIM file without accessing any data in the model.*
 
 Now you'll open a pre-developed Power BI Desktop solution.
 
-1.  In File Explorer, go to the **D:\\DP500\\07\\Starter** folder.
+1.  In File Explorer, go to the **D:\\DP500\\Allfiles\\07\\Starter** folder.
 
 2.  To open a pre-developed Power BI Desktop file, double-click the **Sales
     Analysis - Create calculation groups.pbix** file.
 
 3.  To save the file, on the **File** ribbon tab, select **Save as**.
 
-4.  In the **Save As** window, go to the **D:\\DP500\\07\\MySolution** folder.
+4.  In the **Save As** window, go to the **D:\\DP500\\Allfiles\\07\\MySolution** folder.
 
 5.  Select **Save**.
 
@@ -185,7 +185,7 @@ Create three sales-related measures in preparation for the creation of your calc
     following measure definition, and then press **Enter**.
 
     Tip: All formulas are available to copy and paste from the
-    **D:\\DP500\\07\\Assets\\Snippets.txt**.
+    **D:\\DP500\\Allfiles\\07\\Assets\\Snippets.txt**.
 
     DAX
 
@@ -239,7 +239,7 @@ Use Tabular Editor to create the **Time Intelligence** calculation group. It wil
 *Power BI Desktop does not support the creation or management of calculation
 groups.*
 
-   > **Tip**: All syntax is available to copy and paste from the D:\DP500\Allfiles\Create calculation groups\Assets\Snippets.txt.
+   > **Tip**: All syntax is available to copy and paste from the D:\DP500\Allfiles\07\Assets\Snippets.txt.
 
 1.  On the **External Tools** ribbon, select **Tabular Editor**.
 
@@ -344,7 +344,7 @@ groups.*
     ```
 
     Tip: The format string expression is available to copy and paste from the
-    **D:\\DP500\\07\\Assets\\Snippets.txt**.
+    **D:\\DP500\\Allfiles\\07\\Assets\\Snippets.txt**.
 
     ![Graphical user interface, text, application Description automatically
     generated](../images/image24.png)

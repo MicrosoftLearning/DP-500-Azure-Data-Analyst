@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Create reusable Power BI artifacts'
+    title: 'Create reusable Power BI assets'
     module: 'Manage the analytics development lifecycle'
 ---
 
-# Create reusable Power BI artifacts
+# Create reusable Power BI assets
 
 ## Overview
 
@@ -18,7 +18,7 @@ In this lab, you learn how to:
 
 - Create a local DirectQuery model.
 
-- Use lineage view to discover dependent Power BI artifacts.
+- Use lineage view to discover dependent Power BI assets.
 
 ## Get started
 
@@ -148,7 +148,7 @@ In this task, you will publish the data model.
 
 ## Create a specialized dataset
 
-In this exercise, you will create a specialized dataset to allow the analysis of US sales per capita. Because the core datasets doesn't contain population values, you will add a new table to extend the model.
+In this exercise, you will create a specialized dataset to allow the analysis of US sales per capita. Because the core dataset doesn't contain population values, you will add a new table to extend the model.
 
 ### Create a live connection
 
@@ -341,7 +341,7 @@ In this task, you will add a table of US population data sourced from a web page
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image48.png)
 
-	*Power B Desktop applies the query to create a model table. It adds a new table that imports population data to the model.*
+	*Power BI Desktop applies the query to create a model table. It adds a new table that imports population data to the model.*
 
 18. Reposition the **US Population** table near the **Reseller** table.
 
@@ -444,7 +444,7 @@ In this task, you will review the specialized dataset in the Power BI service.
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image63.png)
 
-	*The **View lineage** option supports finding out dependencies between Power BI artifacts. That's important, for example, if you are going to publish changes to a core dataset. Lineage view will tell you the dependent datasets that might require testing.*
+	*The **View lineage** option supports finding out dependencies between Power BI assets. That's important, for example, if you are going to publish changes to a core dataset. Lineage view will tell you the dependent datasets that might require testing.*
 
 4. In lineage view, notice the connection between the report, the **US Sales Analysis** dataset, and the **Sales Analysis - Create reusable Power BI artifacts** dataset.
 
