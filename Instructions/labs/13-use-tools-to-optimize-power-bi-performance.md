@@ -90,7 +90,9 @@ environment, continue to the next task.*
     ![Shape Description automatically generated with medium
     confidence](../images/image4.png)
 
-1.  At the **Confirm Installation** step, select **Next**. IF prompted, select Yes to allow app to make changes.
+1.  At the **Confirm Installation** step, select **Next**. 
+
+    *If prompted, select **Yes** to allow app to make changes.*
 
     ![Shape Description automatically generated with medium
     confidence](../images/image4.png)
