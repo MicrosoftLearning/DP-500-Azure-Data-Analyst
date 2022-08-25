@@ -335,7 +335,7 @@ In this task, you will add a table of US population data sourced from a web page
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image46.png)
 
-16. To apply the query, on the **Home** ribbon tab, from inside the **Close** group, select the **Close &amp; App**ly icon.
+16. To apply the query, on the **Home** ribbon tab, from inside the **Close** group, select the **Close & Apply** icon.
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image47.png)
 
