@@ -222,7 +222,7 @@ In this task, you will open a pre-developed Power BI Desktop solution, set the d
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image20.png)
 
-13. On the **Home** ribbon tab, from inside the **Queries** group, select the **Transform data** dropdown, and then select **Refresh**.
+13. On the **Home** ribbon tab, from inside the **Queries** group, select **Refresh**.
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image21.png)
 
