@@ -302,7 +302,7 @@ In this task, you will add two parameters.
 
 8. In the **Current Value** box, enter **6/1/2022** (June 1, 2022 - the VM uses US date formats).
 
-	*While setting up the parameters, you can use an arbitrary values. Power BI will update parameter values when it creates and manages the partitions. In this lab, you'll set a range for the month of June 2022.*
+	*While setting up the parameters, you can use arbitrary values. Power BI will update parameter values when it creates and manages the partitions. In this lab, you'll set a range for the month of June 2022.*
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image30.png)
 
