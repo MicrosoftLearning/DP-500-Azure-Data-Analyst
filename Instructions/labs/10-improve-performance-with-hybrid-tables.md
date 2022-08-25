@@ -562,7 +562,7 @@ In this task, you will add an order to the database.
 
 3. In the **Open File** window, go to the **D:\DP500\Allfiles\10\Assets** folder.
 
-4. Select the **1-InsertOrder.sql** file.
+4. Select the **1-InsertOrder.sql** file and select **Open**.
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image70.png)
 
