@@ -246,7 +246,7 @@ In this task, you will open BPA and review the results of the checks.
 
 6. In the Expression Editor, modify the DAX formula to use the more efficient (and safe) [DIVIDE](https://docs.microsoft.com/dax/divide-function-dax) function, as follows.
 
-	*Tip: All formulas are available to copy and paste from the **D:\DP500\Allfiles\****Use tools to optimize Power BI performance****\Assets\Snippets.txt**.*
+	*Tip: All formulas are available to copy and paste from the **D:\DP500\Allfiles\13\Assets\Snippets.txt**.*
 
 	```
 	DIVIDE ( [Profit], SUM ( 'Sales'[Sales Amount] ) )
