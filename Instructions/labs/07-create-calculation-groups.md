@@ -109,7 +109,7 @@ can edit a BIM file without accessing any data in the model.*
 
 Now you'll open a pre-developed Power BI Desktop solution.
 
-1.  In File Explorer, go to the **D:\\DP500\\07\\Starter** folder.
+1.  In File Explorer, go to the **D:\\DP500\\Allfiles\\07\\Starter** folder.
 
 2.  To open a pre-developed Power BI Desktop file, double-click the **Sales
     Analysis - Create calculation groups.pbix** file.
