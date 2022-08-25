@@ -126,7 +126,9 @@ In this task, you will review the data model.
 
 In this task, you will publish the data model.
 
-1. To publish the report, on the **Home** ribbon tab, select **Publish**.
+1. To publish the report, on the **Home** ribbon tab, select **Publish**. 
+
+    *If prompted to save changes, select **Save.***
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image10.png)
 
