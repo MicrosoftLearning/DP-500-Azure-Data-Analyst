@@ -59,7 +59,7 @@ In this task, you will open a pre-developed Power BI Desktop solution.
 
     *If you receive a Potential security risk warning, **select OK***.
     
-    *If prompted to approve running a Native Database Query, select Run.
+    *If prompted to approve running a Native Database Query, **select Run**.
 
 4. To save the file, on the **File** ribbon tab, select **Save as**.
 
