@@ -185,7 +185,7 @@ Create three sales-related measures in preparation for the creation of your calc
     following measure definition, and then press **Enter**.
 
     Tip: All formulas are available to copy and paste from the
-    **D:\\DP500\\07\\Assets\\Snippets.txt**.
+    **D:\\DP500\\Allfiles\\07\\Assets\\Snippets.txt**.
 
     DAX
 
