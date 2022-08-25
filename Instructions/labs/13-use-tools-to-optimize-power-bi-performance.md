@@ -163,7 +163,7 @@ In this task, you will load BPA rules.
 
 3. Paste in the following script.
 
-	*Tip: The script is available to copy and paste from the **D:\DP500\Allfiles\****Use tools to optimize Power BI performance****\Assets\Snippets.txt**.*
+	*Tip: The script is available to copy and paste from the **D:\DP500\Allfiles\13\Assets\Snippets.txt**.*
 
 	```
 	System.Net.WebClient w = new System.Net.WebClient(); 
