@@ -79,7 +79,7 @@ In this task, you will open a pre-developed Power BI template file.
 
 1. Save the file. On the **File** ribbon tab, select **Save as**.
 
-1. In the **Save As** window, go to the **D:\DP500\Allfiles\08\MySolution** folder.
+1. In the **Save As** window, go to the **D:\DP500\Allfiles\08\MySolution** folder. File name is Sales Analysis - Create a composite model.pbix and Save as type is Power BI file (*.pbix).
 
 1. Select **Save**.
 
