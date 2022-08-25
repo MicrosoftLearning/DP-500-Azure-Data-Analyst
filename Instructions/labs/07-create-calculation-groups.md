@@ -116,7 +116,7 @@ Now you'll open a pre-developed Power BI Desktop solution.
 
 3.  To save the file, on the **File** ribbon tab, select **Save as**.
 
-4.  In the **Save As** window, go to the **D:\\DP500\\07\\MySolution** folder.
+4.  In the **Save As** window, go to the **D:\\DP500\\Allfiles\\07\\MySolution** folder.
 
 5.  Select **Save**.
 
