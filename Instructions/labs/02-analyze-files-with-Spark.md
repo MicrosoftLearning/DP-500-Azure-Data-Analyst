@@ -146,7 +146,7 @@ The **dataframe** object in Spark is similar to a Pandas dataframe in Python, an
 
 2. Run the new code cell, and review the results. Observe the following details:
     - When you perform an operation on a dataframe, the result is a new dataframe (in this case, a new **customers** dataframe is created by selecting a specific subset of columns from the **df** dataframe)
-    - dataframes provide functions such as **count** and **distinct** that can be used to summarize and filter the data they contain.
+    - Dataframes provide functions such as **count** and **distinct** that can be used to summarize and filter the data they contain.
     - The `dataframe['Field1', 'Field2', ...]` syntax is a shorthand way of defining a subset of column. You can also use **select** method, so the first line of the code above could be written as `customers = df.select("CustomerName", "Email")`
 
 3. Modify the code as follows:
