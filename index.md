@@ -4,13 +4,9 @@ permalink: index.html
 layout: home
 ---
 
-# DP-500 - Designing and Implementing Enterprise-Scale Analytics Solutions Using Microsoft Azure
+# Data Analyst Exercises
 
-# Content Directory
-
-Hyperlinks to each of the lab exercises are listed below.
-
-## Labs
+These exercises support Microsoft course [DP-500: Designing and Implementing Enterprise-Scale Analytics Solutions Using Microsoft Azure and Microsoft Power BI](https://docs.microsoft.com/training/courses/dp-500t00)
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/labs'" %}
 | ILT Module | Lab |
