@@ -566,7 +566,7 @@ In this task, you will add an order to the database.
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image70.png)
 
-5. In the **Connect to Server** window, ensure that the **Server name** dropdown list is set to the lab Azure SQL Database server.
+5. In the **Connect to Database Engine** window, ensure that the **Server name** dropdown list is set to the lab Azure SQL Database server.
 
 6. In the **Authentication** dropdown list, select **Azure Active Directory - Password**.
 
