@@ -83,7 +83,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
         TOP 100 *
     FROM
         OPENROWSET(
-            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/csv**',
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/csv/**',
             FORMAT = 'CSV',
             PARSER_VERSION='2.0'
         ) AS [result]
