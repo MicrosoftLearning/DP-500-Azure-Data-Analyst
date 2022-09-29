@@ -41,7 +41,7 @@ In this exercise, you will prepare your environment.
     
 	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
    
-1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded. Do not close the command prompt window, you will use it in the next task, Deploy an Azure SQL Database.
+1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded. **Close the Command Prompt** window.
 
 ### Deploy an Azure SQL Database 
 
@@ -446,11 +446,15 @@ In this task, you will set up the data source credentials and refresh the datase
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image54.png)
 
-5. In the window, TBC
+5. In the window, enter the username and password, and set the privacy level to Organizational.
+       
+	Username: `sqladmin`
 
-6. TODO: Screenshot
+    Password: `P@ssw0rd01`
 
-7. Select **Sign In**.
+	![](../images/dp500-improve-performance-with-hybrid-tables-image54b.png)
+
+6. Select **Sign In**.
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image55.png)
 
