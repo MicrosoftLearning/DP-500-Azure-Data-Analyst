@@ -207,7 +207,7 @@ In this task, you will open a pre-developed Power BI Desktop solution, set the d
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image18.png)
 
-10. In the **SQL Server database** window, enter the SQL Server database username and password. 
+10. In the **SQL Server database** window, enter the SQL Server database username and password and save. 
 
     Username: `sqladmin`
 
@@ -222,7 +222,7 @@ In this task, you will open a pre-developed Power BI Desktop solution, set the d
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image20.png)
 
-13. On the **Home** ribbon tab, from inside the **Queries** group, select the **Transform data** dropdown, and then select **Refresh**.
+13. On the **Home** ribbon tab, from inside the **Queries** group, select **Refresh**.
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image21.png)
 
@@ -304,7 +304,7 @@ In this task, you will add two parameters.
 
 8. In the **Current Value** box, enter **6/1/2022** (June 1, 2022 - the VM uses US date formats).
 
-	*While setting up the parameters, you can use an arbitrary values. Power BI will update parameter values when it creates and manages the partitions. In this lab, you'll set a range for the month of June 2022.*
+	*While setting up the parameters, you can use arbitrary values. Power BI will update parameter values when it creates and manages the partitions. In this lab, you'll set a range for the month of June 2022.*
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image30.png)
 
@@ -566,11 +566,11 @@ In this task, you will add an order to the database.
 
 3. In the **Open File** window, go to the **D:\DP500\Allfiles\10\Assets** folder.
 
-4. Select the **1-InsertOrder.sql** file.
+4. Select the **1-InsertOrder.sql** file and select **Open**.
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image70.png)
 
-5. In the **Connect to Server** window, ensure that the **Server name** dropdown list is set to the lab Azure SQL Database server.
+5. In the **Connect to Database Engine** window, ensure that the **Server name** dropdown list is set to the lab Azure SQL Database server.
 
 6. In the **Authentication** dropdown list, select **Azure Active Directory - Password**.
 

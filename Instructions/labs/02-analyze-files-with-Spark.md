@@ -84,7 +84,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
     display(df.limit(10))
     ```
 
-4. When the code has finished running, and then review the output beneath the cell in the notebook. It shows the first ten rows in the file you selected, with automatic column names in the form **_c0**, **_c1**, **_c2**, and so on.
+4. When the code has finished running, review the output beneath the cell in the notebook. It shows the first ten rows in the file you selected, with automatic column names in the form **_c0**, **_c1**, **_c2**, and so on.
 5. Modify the code so that the **spark.read.load** function reads data from <u>all</u> of the CSV files in the folder, and the **display** function shows the first 100 rows. Your code should look like this (with *datalakexxxxxxx* matching the name of your data lake store):
 
     ```Python
@@ -98,7 +98,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 
     The dataframe now includes data from all of the files, but the column names are not useful. Spark uses a "schema-on-read" approach to try to determine appropriate data types for the columns based on the data they contain, and if a header row is present in a text file it can be used to identify the column names (by specifying a **header=True** parameter in the **load** function). Alternatively, you can define an explicit schema for the dataframe.
 
-7. Modify the code as follows (replacing *datalakexxxxxxx*), to define an explicit schema for the dataframe that includes the column names and data types.
+7. Modify the code as follows (replacing *datalakexxxxxxx*), to define an explicit schema for the dataframe that includes the column names and data types. Rerun the code in the cell.
 
     ```Python
     %%pyspark
@@ -146,7 +146,7 @@ The **dataframe** object in Spark is similar to a Pandas dataframe in Python, an
 
 2. Run the new code cell, and review the results. Observe the following details:
     - When you perform an operation on a dataframe, the result is a new dataframe (in this case, a new **customers** dataframe is created by selecting a specific subset of columns from the **df** dataframe)
-    - dataframes provide functions such as **count** and **distinct** that can be used to summarize and filter the data they contain.
+    - Dataframes provide functions such as **count** and **distinct** that can be used to summarize and filter the data they contain.
     - The `dataframe['Field1', 'Field2', ...]` syntax is a shorthand way of defining a subset of column. You can also use **select** method, so the first line of the code above could be written as `customers = df.select("CustomerName", "Email")`
 
 3. Modify the code as follows:

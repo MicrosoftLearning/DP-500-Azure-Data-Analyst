@@ -90,7 +90,9 @@ environment, continue to the next task.*
     ![Shape Description automatically generated with medium
     confidence](../images/image4.png)
 
-1.  At the **Confirm Installation** step, select **Next**.
+1.  At the **Confirm Installation** step, select **Next**. 
+
+    *If prompted, select **Yes** to allow app to make changes.*
 
     ![Shape Description automatically generated with medium
     confidence](../images/image4.png)
@@ -161,7 +163,7 @@ In this task, you will load BPA rules.
 
 3. Paste in the following script.
 
-	*Tip: The script is available to copy and paste from the **D:\DP500\Allfiles\****Use tools to optimize Power BI performance****\Assets\Snippets.txt**.*
+	*Tip: The script is available to copy and paste from the **D:\DP500\Allfiles\13\Assets\Snippets.txt**.*
 
 	```
 	System.Net.WebClient w = new System.Net.WebClient(); 
@@ -246,7 +248,7 @@ In this task, you will open BPA and review the results of the checks.
 
 6. In the Expression Editor, modify the DAX formula to use the more efficient (and safe) [DIVIDE](https://docs.microsoft.com/dax/divide-function-dax) function, as follows.
 
-	*Tip: All formulas are available to copy and paste from the **D:\DP500\Allfiles\****Use tools to optimize Power BI performance****\Assets\Snippets.txt**.*
+	*Tip: All formulas are available to copy and paste from the **D:\DP500\Allfiles\13\Assets\Snippets.txt**.*
 
 	```
 	DIVIDE ( [Profit], SUM ( 'Sales'[Sales Amount] ) )

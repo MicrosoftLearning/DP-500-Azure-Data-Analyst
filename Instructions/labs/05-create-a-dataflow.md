@@ -102,7 +102,7 @@ In this task, you will set up Power BI Desktop.
 
 1. In the **Save As** window, go to the **D:\DP500\Allfiles\05\MySolution** folder.
 
-1. Select **Save**.
+1. Go to Power BI Desktop and select **File** then **Options and settings** then **Options** then **Security** and under Authentication Browser check **Use my default web browser** and select **Save**.
 
 	*You will update the Power BI Desktop solution to use a dataflow to source date dimension data.*
 

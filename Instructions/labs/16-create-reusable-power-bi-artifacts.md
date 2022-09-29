@@ -10,7 +10,7 @@ lab:
 
 **The estimated time to complete the lab is 45 minutes**
 
-In this lab, you will create a specialized Power BI dataset that extends a core datasets. The specialized dataset will enable the analysis of US sales per capita.
+In this lab, you will create a specialized Power BI dataset that extends a core dataset. The specialized dataset will enable the analysis of US sales per capita.
 
 In this lab, you learn how to:
 
@@ -126,7 +126,9 @@ In this task, you will review the data model.
 
 In this task, you will publish the data model.
 
-1. To publish the report, on the **Home** ribbon tab, select **Publish**.
+1. To publish the report, on the **Home** ribbon tab, select **Publish**. 
+
+    *If prompted to save changes, select **Save.***
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image10.png)
 
@@ -333,7 +335,7 @@ In this task, you will add a table of US population data sourced from a web page
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image46.png)
 
-16. To apply the query, on the **Home** ribbon tab, from inside the **Close** group, select the **Close &amp; App**ly icon.
+16. To apply the query, on the **Home** ribbon tab, from inside the **Close** group, select the **Close & Apply** icon.
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image47.png)
 
