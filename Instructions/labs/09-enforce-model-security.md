@@ -528,7 +528,7 @@ In this task, you will finalize the design by publishing the report and mapping 
 
 	![](../images/dp500-enforce-model-security-image75.png)
 
-2. Publish the report to your workspace.
+2. Publish the report to the workspace you created at the beginning of the lab. 
 
 3. Close Power BI Desktop.
 
