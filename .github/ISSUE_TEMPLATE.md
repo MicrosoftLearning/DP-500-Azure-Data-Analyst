@@ -1,7 +1,6 @@
-# Module: 00
-## Lab/Demo: 00
-### Task: 00
-#### Step: 00
+# Lab title: xyz
+## Task: 00
+### Step: 00
 
 Description of issue
 
