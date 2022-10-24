@@ -578,9 +578,9 @@ In this task, you will add an order to the database.
 
 5. In the **Connect to Database Engine** window, ensure that the **Server name** dropdown list is set to the lab Azure SQL Database server.
 
-6. In the **Authentication** dropdown list, select **Azure Active Directory - Password**.
+6. In the **Authentication** dropdown list, select **SQL Server Authentication**.
 
-7. Enter your lab credentials.
+7. Enter the user name **sqladmin** and password.
 
 8. Select **Connect**.
 
@@ -616,7 +616,7 @@ In this task, you will refresh the report.
 
 ### Finish up
 
-In this task, you will finish up. Open SSMS and ensure you're connected to the local database, AdventureWorksDW2022-DP500.
+In this task, you will finish up. Open SSMS and ensure you're connected to the database, AdventureWorksDW2022-DP500.
 
 1. In SSMS, open the **2-Cleanup.sql** file.
 
