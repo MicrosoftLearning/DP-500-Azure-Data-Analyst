@@ -249,9 +249,11 @@ In this task, you will publish the report.
 
 	![](../images/dp500-enforce-model-security-image30.png)
 
-### Configure row-level security
+### Configure row-level security (*optional*)
 
-In this task, you will see how to configure row-level security in the Power BI service. This task relies on the existence of a **Salespeaople_Australia** security group in the tenant you are working in. Please read through the tasks, but note that you will not be able to complete them in the absence of the existence of the security group. After reading through, proceed to the Clean Up task.
+In this task, you will see how to configure row-level security in the Power BI service. 
+
+This task relies on the existence of a **Salespeaople_Australia** security group in the tenant you are working in. This security group does NOT automatically exist in the tenant. If you have permissions on your tenant, you can follow the steps below. If you are using a tenant provided to you in training, you will not have the appropriate permissions to create secrurity groups. Please read through the tasks, but note that you will not be able to complete them in the absence of the existence of the security group. **After reading through, proceed to the Clean Up task.**
 
 1. Switch to the Power BI service (web browser).
 
