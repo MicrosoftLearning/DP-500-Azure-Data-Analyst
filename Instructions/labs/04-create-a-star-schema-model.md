@@ -155,6 +155,7 @@ In this task, you will start the SQL pool.
 ### Link your Power BI workspace to Azure Synapse Analytics
 
 In this task you will link your existing Power BI workspace to your Azure Synapse Analytics workspace.
+
 1. From the dedicated SQL pool in the Azure Portal, select **Open in Synapse Studio** from the ribbon.
 
 1. On the home page of Azure Synapse Studio, select **Visualize** to link your Power BI workspace.
@@ -167,7 +168,7 @@ In this task you will link your existing Power BI workspace to your Azure Synaps
 
     ![](../images/dp500-create-a-star-schema-model-image3h.png)
 
-1. Select **Publish** if you are prompted.
+1. Navigate to **Manage** and select **Publish all** to ensure changes are published.
 
 ## Develop a data model
 
