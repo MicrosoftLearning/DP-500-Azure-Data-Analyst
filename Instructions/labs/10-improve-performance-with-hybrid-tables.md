@@ -302,7 +302,9 @@ In this task, you will add two parameters.
 
 7. In the **Type** dropdown list, select **Date/Time**.
 
-8. In the **Current Value** box, enter **6/1/2022** (June 1, 2022 - the VM uses US date formats).
+8. In the **Current Value** box, enter **6/1/2022** (June 1, 2022 - the VM uses US date formats). 
+
+    *Note that for non-MM-DD-YYY format locations, the date should be entered as 1/6/2022*
 
 	*While setting up the parameters, you can use arbitrary values. Power BI will update parameter values when it creates and manages the partitions. In this lab, you'll set a range for the month of June 2022.*
 
@@ -317,6 +319,8 @@ In this task, you will add two parameters.
 	- Type: **Date/Time**
 
 	- Current Value: **7/1/2022** (July 1, 2022)
+
+     *Note that for non-MM-DD-YYY format locations, the date should be entered as 1/7/2022*
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image31.png)
 
@@ -554,7 +558,9 @@ In this task, you will open the report.
 
 3. If necessary, in the **Fiscal Year** slicer, select the fiscal year that contains the current month (based on today's date).
 
-	*The current month should be visible as a bar in the bar chart.*
+    *The current month should be visible as a bar in the bar chart.*
+
+    *Note that August 2022 onwards is not in FY 2022, which is the default for the slicer.*
 
 ### Add an order to the database
 
