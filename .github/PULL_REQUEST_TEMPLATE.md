@@ -1,5 +1,5 @@
-# Module: 00
-## Lab/Demo: 00
+# Lab title: xyz
+## Task: 00
 
 Fixes # .
 
