@@ -616,7 +616,7 @@ In this task, you will refresh the report.
 
 ### Finish up
 
-In this task, you will finish up.
+In this task, you will finish up. Open SSMS and ensure you're connected to the local database, AdventureWorksDW2022-DP500.
 
 1. In SSMS, open the **2-Cleanup.sql** file.
 
