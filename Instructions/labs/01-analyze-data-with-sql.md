@@ -83,7 +83,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
         TOP 100 *
     FROM
         OPENROWSET(
-            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/csv/**',
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/csv/',
             FORMAT = 'CSV',
             PARSER_VERSION='2.0'
         ) AS [result]
@@ -106,7 +106,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
         TOP 100 *
     FROM
         OPENROWSET(
-            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/csv/**',
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/csv/',
             FORMAT = 'CSV',
             PARSER_VERSION='2.0'
         )
@@ -146,7 +146,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
         TOP 100 *
     FROM
         OPENROWSET(
-            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/**',
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/',
             FORMAT = 'PARQUET'
         ) AS [result]
     ```
@@ -159,7 +159,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
            COUNT(*) AS OrderedItems
     FROM
         OPENROWSET(
-            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/**',
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/',
             FORMAT = 'PARQUET'
         ) AS [result]
     GROUP BY YEAR(OrderDate)
@@ -177,7 +177,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
            COUNT(*) AS OrderedItems
     FROM
         OPENROWSET(
-            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/year=*/**',
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/year=*/',
             FORMAT = 'PARQUET'
         ) AS [result]
     WHERE [result].filepath(1) IN ('2019', '2020')
@@ -203,7 +203,7 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
         TOP 100 *
     FROM
         OPENROWSET(
-            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/json/**',
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/json/',
             FORMAT = 'CSV',
             PARSER_VERSION = '2.0'
         ) AS [result]
@@ -221,7 +221,7 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
         TOP 100 *
     FROM
         OPENROWSET(
-            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/json/**',
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/json/',
             FORMAT = 'CSV',
             FIELDTERMINATOR ='0x0b',
             FIELDQUOTE = '0x0b',
@@ -239,7 +239,7 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
            Doc
     FROM
         OPENROWSET(
-            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/json/**',
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/json/',
             FORMAT = 'CSV',
             FIELDTERMINATOR ='0x0b',
             FIELDQUOTE = '0x0b',
