@@ -159,7 +159,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
            COUNT(*) AS OrderedItems
     FROM
         OPENROWSET(
-            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/',
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/**',
             FORMAT = 'PARQUET'
         ) AS [result]
     GROUP BY YEAR(OrderDate)
