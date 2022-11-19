@@ -157,7 +157,9 @@ In this task, you will load BPA rules.
 
 	*Tabular Editor opens in a new window and connects live to the data model hosted in Power BI Desktop. Changes made to the model in Tabular Editor aren't propagated to Power BI Desktop until you save them.*
 
-2. To load the BPA rules, select the **Advanced Scripting** tab.
+2. To load the BPA rules, select the **C# Script** tab.
+
+	*Note: This may be called the Advanced Scripting tab in older versions of Tabular Editor.*
 
 	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image13.png)
 
@@ -251,7 +253,7 @@ In this task, you will open BPA and review the results of the checks.
 	*Tip: All formulas are available to copy and paste from the **D:\DP500\Allfiles\13\Assets\Snippets.txt**.*
 
 	```
-	DIVIDE ( [Profit], SUM ( 'Sales'[Sales Amount] ) )
+	DIVIDE ( [Profit], SUM ( 'Sales'[Sales Amount] ) )C#
 	```
 
 7. To save the model changes, on the toolbar, select the **Save changes to the connected database** command (or press **Ctrl+S**).
@@ -276,9 +278,11 @@ In this task, you will open BPA and review the results of the checks.
 
 12. When notified that BPA has copied the fix script to the clipboard, select **OK**.
 
-13. Switch to Tabular Editor, and select the **Advanced Scripting** tab.
+13. Switch to Tabular Editor, and select the **C# Script** tab.
 
-	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image26.png)
+	*Note: This may be called the Advanced Scripting tab in older versions of Tabular editor.*
+	
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image13.png)
 
 14. To copy the fix script, right-click inside the pane, and then press **Ctrl+C**.
 
@@ -288,7 +292,7 @@ In this task, you will open BPA and review the results of the checks.
 
 15. To run the script, on the toolbar, select the **Run script** command.
 
-	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image28.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image14.png)
 
 16. Save the model changes.
 
