@@ -146,7 +146,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
         TOP 100 *
     FROM
         OPENROWSET(
-            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/',
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/**',
             FORMAT = 'PARQUET'
         ) AS [result]
     ```
