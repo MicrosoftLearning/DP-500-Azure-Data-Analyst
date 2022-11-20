@@ -190,6 +190,8 @@ In this task, you will download a Power BI data source file from Synapse Studio.
 
 	![](../images/dp500-create-a-star-schema-model-image5.png)
 
+	*Note: If you don't see any data here, confirm that your dedicated SQL pool is running and that your Power BI workspace is linked to your Synapse workspace.*
+
 4. In the **Power BI Datasets** pane, select **New Power BI Dataset**.
 
 	![](../images/dp500-create-a-star-schema-model-image6.png)
@@ -234,11 +236,15 @@ In this task, you will create five Power Query queries that will each load as a 
 
 	![](../images/dp500-create-a-star-schema-model-image12.png)
 
-7. To create queries (which will become model tables), check the following five tables:
+7. To create queries (which will become model tables), check the following seven tables:
 
 	- DimDate
 
 	- DimProduct
+  
+	- DimProductCategory
+  
+	- DimProductSubcategory
 
 	- DimReseller
 
@@ -332,7 +338,6 @@ In this task, you will create five Power Query queries that will each load as a 
 
 	- **FiscalYear** as **Year**
 
-
 23. To validate the query design, in the status bar (located along the bottom of the window), verify that the query has five columns.
 
 	![](../images/dp500-create-a-star-schema-model-image26.png)
@@ -354,7 +359,40 @@ In this task, you will create five Power Query queries that will each load as a 
 	![](../images/dp500-create-a-star-schema-model-image28.png)
 
 
-27. Select the **DimProduct** query.
+27. Select the **DimProductCategory** table. 
+    
+28. Rename the query to **Product Details**.
+
+29. On the home tab of the ribbon, in the Combine group, select **Merge Queries.** 
+
+	*Note: We are merging queries to get the product details, category and sub category. This will be used in the Product dimension.*
+
+1. Select the **DimProductSubcategory** table and select the **ProductCategoryKey** Column in each table. Select **OK**.
+
+	![](../images/dp500-create-a-star-schema-model-image28a.png)
+
+	
+	*Note: Use the default join for this merge, which is a left outer join.*
+
+2. Expand the **DimProductSubcategory** column. Select the **ProductSubcategoryKey** and the **EnglishProductSubcategoryName** columns. De-select **Use original column name as prefix**.
+
+	![](../images/dp500-create-a-star-schema-model-image28b.png)
+
+	*The Expand feature allows joining tables based on foreign key constraints in the source data. The design approach taken by this lab is to join snowflake dimension tables together to produce a denormalized representation of the data.*
+
+1. Select **OK**.
+   
+2. Remove all columns, except:
+
+   - ProductSubcategoryKey
+   
+   - EnglishProductCategoryName
+
+   - EnglishProductSubcategoryName
+
+   You should now have three columns with 37 rows.
+
+3.  Select the **DimProduct** query.
 
 	![](../images/dp500-create-a-star-schema-model-image29.png)
 
@@ -362,12 +400,25 @@ In this task, you will create five Power Query queries that will each load as a 
 
 	![](../images/dp500-create-a-star-schema-model-image30.png)
 
-29. To filter the query, in the **FinishedGoodsFlag** column header, open the dropdown menu, uncheck **FALSE**.
+1. On the home tab of the ribbon, in the Combine group, select **Merge Queries.** 
+
+1. Select the **Product Details** table and select the **ProductSubcategoryKey** column in both the Product table and the Product details table.
+
+    ![](../images/dp500-create-a-star-schema-model-image30a.png)
+
+1. Select **OK**.
+
+1. Expand the Product Details column and select the **EnglishProductSubcategoryName** and the **EnglishProductCategoryName** columns. 
+
+    ![](../images/dp500-create-a-star-schema-model-image30b.png)
+
+1. Select **OK**.
+
+2.  To filter the query, in the **FinishedGoodsFlag** column header, open the dropdown menu, uncheck **FALSE**.
 
 	![](../images/dp500-create-a-star-schema-model-image31.png)
 
 30. Select **OK**.
-
 
 31. Remove all columns, except:
 
@@ -377,26 +428,9 @@ In this task, you will create five Power Query queries that will each load as a 
 
 	- Color
 
-	- DimProductSubcategory
-
-32. To configure the query to join tables, in the **DimProductSubcategory** column header, select the **Expand** button, and then uncheck **(Select all columns)**.
-
-	*This feature allows joining tables based on foreign key constraints in the source data. The design approach taken by this lab is to join snowflake dimension tables together to produce a denormalized representation of the data.*
-
-33. Uncheck the **Use original column name as prefix**.
-
-	![](../images/dp500-create-a-star-schema-model-image32.png)
-
-34. Check the following two columns:
-
 	- EnglishProductSubcategoryName
 
-	- DimProductCategory
-
-35. Select **OK**.
-
-36. Repeat the previous steps to expand the **DimProductCategory** and introduce the **EnglishProductCategoryName** column.
-
+	- EnglishProductCategoryName
 
 37. Rename the following columns:
 
@@ -411,8 +445,6 @@ In this task, you will create five Power Query queries that will each load as a 
 	![](../images/dp500-create-a-star-schema-model-image33.png)
 
 39. In the **Native Query** window, review the SELECT statement that reflects the query design.
-
-	*The statement includes nested subqueries to produce the denormalized query result.*
 
 40. To close the **Native Query** window, select **OK**.
 
@@ -528,6 +560,11 @@ In this task, you will create five Power Query queries that will each load as a 
 
 	*The design of the **Sales** query is now complete.*
 
+1. Right-click on the **Product Details** table and de-select **Enable load**. This will disable the load of the Product Details table to the data model, and it will not appear in the report.
+
+	![](../images/dp500-create-a-star-schema-model-image40a.png)
+
+1. Repeat this step, de-selecting Enable load, for the **DimProductSubcategory** table.
 
 63. To apply the queries, on the **Home** ribbon tab, from inside the **Close** group, select the **Close &amp; Apply** icon.
 
