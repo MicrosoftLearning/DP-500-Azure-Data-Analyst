@@ -117,7 +117,31 @@ In this task, you will set up the Azure SQL Database to allow connections from y
 
 8. Keep the Azure portal web browser session open. You will need to copy the database connection string in the **Set up Power BI Desktop task**.
 
-### Set up the Power BI service
+### Set up Power BI
+
+#### Set up a Power BI account in Power BI Desktop
+
+In this task, you will set up Power BI Desktop.
+
+1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
+
+	![](../images/dp500-create-a-dataflow-image1.png)
+
+1. Go to the **D:\DP500\Allfiles\10\Starter** folder.
+
+1. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Improve performance with hybrid tables** file.
+
+1. If you're not already signed in, at the top-right corner of Power BI Desktop, select **Sign In**. Use the lab credentials to complete the sign in process.
+
+	![](../images/dp500-create-a-dataflow-image2.png)
+
+    *Note: this will likely take you to the Power BI service to complete the sign-up process.*
+
+1. To save the file, on the **File** ribbon, select **Save as**.
+
+1. In the **Save As** window, go to the **D:\DP500\Allfiles\10\MySolution** folder.
+
+#### Set up Power BI Premium trial
 
 In this task, you will sign in to the Power BI service and start a trial license.
 
