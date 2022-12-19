@@ -5,7 +5,7 @@
 
 ## What are we doing?
 
-- To support this course, we will need to make frequent updates to the course content to keep it current with the Azure services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Azure platform.
+- To support this course, we will need to make frequent updates to the course content to keep it current with the Azure and Power BI services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Microsoft platform.
 
 - We hope that this brings a sense of collaboration to the labs like we've never had before - when Azure changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source.  Help your fellow MCTs.
 
@@ -15,7 +15,7 @@
 
 - These files on GitHub are designed to be used in conjunction with the student handbook, but are in GitHub as a central repository so MCTs and course authors can have a shared source for the latest lab files.
 
-- It will be recommended that for every delivery, trainers check GitHub for any changes that may have been made to support the latest Azure services, and get the latest files for their delivery.
+- It will be recommended that for every delivery, trainers check GitHub for any changes that may have been made to support the latest Azure and Power BI services, and get the latest files for their delivery.
 
 ## How do I contribute?
 
