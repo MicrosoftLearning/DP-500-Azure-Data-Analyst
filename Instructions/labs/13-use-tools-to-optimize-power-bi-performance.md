@@ -284,7 +284,7 @@ In this task, you will open BPA and review the results of the checks.
 	
 	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image13.png)
 
-14. To copy the fix script, right-click inside the pane, and then press **Ctrl+C**.
+14. To paste the fix script, right-click inside the pane, and then press **Ctrl+V**.
 
 	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image27.png)
 
