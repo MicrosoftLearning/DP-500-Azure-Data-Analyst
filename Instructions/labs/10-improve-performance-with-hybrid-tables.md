@@ -82,7 +82,8 @@ In this task, you'll create an Azure SQL database that you'll use as a data sour
 
 	The script will take approximately 10-15 minutes to run.
 
-    *Note: This lab requires a resource group to create an Azure SQL database. If you do not have a resource group provided in a hosted lab environment, [create a resource group](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal#create-resource-groups) in your Azure subscription.*
+    *Note: This lab requires a resource group to create an Azure SQL database. If you are performing this lab in a hosted lab environment, you may need to log into the [Azure Portal](portal.azure.com) to obtain the resource group name. If you do not have a resource group provided in a hosted lab environment, [create a resource group](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal#create-resource-groups) in your Azure subscription.*
+
 3. After the script has completed, close the PowerShell window.
 
 ### Set up the Azure SQL Database
