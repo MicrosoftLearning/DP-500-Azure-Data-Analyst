@@ -199,7 +199,7 @@ In this task, you will review the data model developed in Power BI Desktop.
 
 In this task, you will create a dataflow that represents a consistent definition of date-related data.
 
-1. In the Power BI service, located at the bottom-left of the **Navigation** pane, select **Get data**.
+1. In the Power BI service, select **New**, **Dataflow**.
 
 	![](../images/dp500-create-a-dataflow-image10.png)
 
@@ -220,11 +220,15 @@ In this task, you will create a dataflow that represents a consistent definition
 	*Tip: You can use the Search box (located at the top-right) to help find the data source.*
 
 1. Enter the Synapse Connection settings.
+
      - Enter the Server name from the Azure Portal
+     
      ![](../images/synapse-sql-pool-connection-string.png)
      
-        The Server name should look similar to:
-     synapsewsxxxxx.sql.azuresynapse.net
+      The Server name should look similar to:
+      
+      synapsewsxxxxx.sql.azuresynapse.net
+      
      - Ensure the Authentication kind is **Organizational account**. If you are prompted to sign in, use the lab provided credentials.
      ![](../images/synapse-sql-pool-sign-in.png)
 
