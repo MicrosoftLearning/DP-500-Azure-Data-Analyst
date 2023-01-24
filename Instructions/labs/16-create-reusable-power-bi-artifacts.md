@@ -47,31 +47,40 @@ In this exercise, you will prepare your environment.
    
 1. Open the D drive in the file explorer to ensure the files have been downloaded.
 
-### Sign in to the Power BI service
+### Set up Power BI
 
-In this task, you will sign in to the Power BI service, start a trial license, and create a workspace.
+In this task, you will set up Power BI.
 
-*Important: If you have already setup Power BI in your VM environment, continue to the next task.*
+1. To open Power BI Desktop, on the taskbar, select the **Power BI Desktop** shortcut.
 
-1. In a web browser, go to [https://powerbi.com](https://powerbi.com/).
+	![](../images/dp500-create-a-star-schema-model-image1.png)
 
-2. Use the lab credentials to complete the sign in process.
+2. Select **X** located at the top-right of the getting started window.
 
-	*Important: You must use the same credentials used to sign in from Power BI Desktop.*
+	![](../images/dp500-create-a-star-schema-model-image2.png)
 
-3. At the top-right, select the profile icon, and then select **Start trial**.
+3. At the top-right corner of Power BI Desktop, if you're not already signed in, select **Sign In**. Use the lab credentials to complete the sign in process.
 
-	![](../images/dp500-create-reusable-power-bi-artifacts-image1.png)
+	![](../images/dp500-create-a-star-schema-model-image3.png)
+4. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **Continue** to complete the sign up.
 
-4. When prompted, select **Start trial**.
+	![](../images/dp500-create-a-star-schema-model-image3b.png)
 
-	![](../images/dp500-create-reusable-power-bi-artifacts-image2.png)
+5. Enter a 10 digit phone number and select **Get started**. Select **Get started** once more. You will be redirected to Power BI.
 
-5. Do any remaining tasks to complete the trial setup.
+1. At the top-right, select the profile icon, and then select **Start trial**.
+
+	![](../images/dp500-create-a-dataflow-image3.png)
+
+1. When prompted, select **Start trial**.
+
+	![](../images/dp500-create-a-dataflow-image4.png)
+
+1. Do any remaining tasks to complete the trial setup.
 
 	*Tip: The Power BI web browser experience is known as the **Power BI service**.*
 
-### Create a workspace
+### Create a workspace in the Power BI Service
 
 In this task, you will create a workspace.
 
@@ -92,9 +101,7 @@ In this task, you will create a workspace.
 
 	*Once created, the workspace opens. In the next task, you will publish a dataset to this workspace.*
 
-### Set up Power BI Desktop
-
-In this task, you will set up Power BI Desktop.
+### Open the starter file in Power BI Desktop
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
