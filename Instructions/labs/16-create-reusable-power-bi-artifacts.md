@@ -266,11 +266,11 @@ In this task, you will design the report layout to analyze US state sales.
 
 7. Reposition and resize the table so that it fills the entire page.
 
-8. In the **Fields** pane, from inside the **Reseller** table, drag the **State-Province** field and drop it into the table visual.
+8. In the **Data** pane, from inside the **Reseller** table, drag the **State-Province** field and drop it into the table visual.
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image32.png)
 
-9. In the **Fields** pane, expand the **Sales** table, and then add the **Sales Amount** field to the table visual.
+9. In the **Data** pane, expand the **Sales** table, and then add the **Sales Amount** field to the table visual.
 
 	![](../images/dp500-create-reusable-power-bi-artifacts-image33.png)
 
