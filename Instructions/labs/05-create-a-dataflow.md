@@ -203,10 +203,6 @@ In this task, you will create a dataflow that represents a consistent definition
 
 	![](../images/dp500-create-a-dataflow-image10.png)
 
-1. To create a dataflow, select the **Dataflows** tile.
-
-	![](../images/dp500-create-a-dataflow-image11.png)
-
 1. In the **Define new tables** tile, select **Add new tables**.
 
 	![](../images/dp500-create-a-dataflow-image12.png)
@@ -507,11 +503,11 @@ In this task, you will test the model by creating a simple report layout.
 
   
 
-1. In the **Fields** pane, expand the **Date** table, and then drag the **Month Offset Filter** field into the bar chart visual.
+1. In the **Data** pane, expand the **Date** table, and then drag the **Month Offset Filter** field into the bar chart visual.
 
 	![](../images/dp500-create-a-dataflow-image48.png)
 
-1. In the **Fields** pane, expand the **Sales** table, and then drag the **Sales Amount** field into the bar chart visual.
+1. In the **Data** pane, expand the **Sales** table, and then drag the **Sales Amount** field into the bar chart visual.
 
 	![](../images/dp500-create-a-dataflow-image49.png)
 
@@ -520,7 +516,7 @@ In this task, you will test the model by creating a simple report layout.
 
 	![](../images/dp500-create-a-dataflow-image50.png)
 
-1. To ensure the month offset filter values sort chronologically, in the **Fields** pane, select the **Month Offset Filter** field.
+1. To ensure the month offset filter values sort chronologically, in the **Data** pane, select the **Month Offset Filter** field.
 
 1. On the **Column Tools** ribbon tab, from inside the **Sort** group, select **Sort**, and then select **Month Offset**.
 
