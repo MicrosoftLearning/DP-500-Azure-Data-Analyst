@@ -109,7 +109,7 @@ In this task, you will visualize sales data by date and switch the active status
 
 	![](../images/dp500-work-with-model-relationships-image6.png)
 
-3. To add columns to the table visual, in the **Fields** pane (located at the right), first expand the **Date** table.
+3. To add columns to the table visual, in the **Data** pane (located at the right), first expand the **Date** table.
 
 	![](../images/dp500-work-with-model-relationships-image7.png)
 
@@ -199,7 +199,7 @@ In this exercise, you will learn how to make a relationship active in a DAX form
 
 In this task, you will use the USERELATIONSHIP function to make an inactive relationship active.
 
-1. In the **Fields** pane, right-click the **Sales** table, and then select **New measure**.
+1. In the **Data** pane, right-click the **Sales** table, and then select **New measure**.
 
 	![](../images/dp500-work-with-model-relationships-image21.png)
 
@@ -352,7 +352,7 @@ In this task, you will visualize the ship date data in a new table visual.
 
 	![](../images/dp500-work-with-model-relationships-image42.png)
 
-7. In the **Fields** pane, expand open the **Ship Date** table.
+7. In the **Data** pane, expand open the **Ship Date** table.
 
 8. To add a new field to the new table visual, from the **Ship Date** table, drag the **Ship Year** field to the **Values** well, above the **Sales Amount** field.
 
@@ -376,7 +376,7 @@ In this exercise, you will work with other DAX relationship functions.
 
 In this task, you will work with the CROSSFILTER and TREATAS functions to modify relationship behavior during calculations.
 
-1. In the **Fields** pane, from inside the **Sales** table, select the **Sales Shipped** measure.
+1. In the **Data** pane, from inside the **Sales** table, select the **Sales Shipped** measure.
 
 	![](../images/dp500-work-with-model-relationships-image45.png)
 
