@@ -77,9 +77,9 @@ In this task, you will open a pre-developed Power BI template file.
 
 1. In the Native Database Query window, select **Run**.
 
-1. Save the file. On the **File** ribbon tab, select **Save as**.
+1. Save the file. On the **File** menu, select **Save as**.
 
-1. In the **Save As** window, go to the **D:\DP500\Allfiles\08\MySolution** folder. The file name is Sales Analysis - Create a composite model.pbix.
+1. In the **Save As** window, go to the **D:\DP500\Allfiles\08\MySolution** folder. The file name is **Sales Analysis - Create a composite model.pbix**.
 
 1. Select **Save**.
 
@@ -255,7 +255,7 @@ In this task, you will add two measures to allow the analysis of sales target va
 
     ![](../images/dp500-create-a-composite-model-image28.png)
 
-1. To create a measure, in the **Fields** pane (located at the right), right-click the **Targets** table, and then select **New measure**.
+1. To create a measure, in the **Data** pane (located at the right), right-click the **Targets** table, and then select **New measure**.
 
     ![](../images/dp500-create-a-composite-model-image29.png)
 
@@ -297,7 +297,7 @@ In this task, you will add two measures to allow the analysis of sales target va
 
     ![](../images/dp500-create-a-composite-model-image31.png)
 
-1. In the **Fields** pane, inside the **Targets** table, verify that there are two measures.
+1. In the **Data** pane, inside the **Targets** table, verify that there are two measures.
 
     ![](../images/dp500-create-a-composite-model-image32.png)
 
@@ -307,7 +307,7 @@ In this task, you will update the report to use the new measures.
 
 1. In the report, select the column chart visual.
 
-1. From the **Fields** pane, drag the **Target Amount** field into the **Visualizations** pane, inside the **Values** well, directly beneath the **Sales Amount** field.
+1. From the **Data** pane, drag the **Target Amount** field into the **Visualizations** pane, inside the **Values** well, directly beneath the **Sales Amount** field.
 
     ![](../images/dp500-create-a-composite-model-image33.png)
 
