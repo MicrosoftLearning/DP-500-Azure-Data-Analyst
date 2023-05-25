@@ -371,9 +371,7 @@ In this task, you will optimize a query by using an improved measure formula.
 
 *Note that it's difficult to optimize a query when the data model volumes are small. This exercise focuses on using DAX Studio rather than optimizing DAX queries.*
 
-1. On the **File** ribbon tab, select **Browse**.
-
-	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image32.png)
+1. On the **File** menu, select **Browse**.
 
 2. In the **Open** window, go to the **D:\DP500\Allfiles\13\Assets** folder.
 
