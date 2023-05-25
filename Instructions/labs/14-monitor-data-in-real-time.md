@@ -59,8 +59,6 @@ In this task, you will use SQL Server Management Studio (SSMS) to setup the data
 	![](../images/dp500-monitor-data-in-real-time-image2.png)
 
 3. Select **Connect**.
-	
-	![](../images/dp500-monitor-data-in-real-time-image3.png)
 
 4. To open a script file, on the **File** menu, select **Open** > **File**.
 
@@ -99,8 +97,6 @@ In this task, you will use SQL Server Management Studio (SSMS) to setup the data
 In this task, you will open a pre-developed Power BI Desktop solution.
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
-
-	![](../images/dp500-monitor-data-in-real-time-image8.png)
 
 2. Go to the **D:\DP500\Allfiles\14\Starter** folder.
 

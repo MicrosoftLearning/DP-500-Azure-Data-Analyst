@@ -51,15 +51,11 @@ In this task, you will open a pre-developed Power BI Desktop solution.
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
-	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image1.png)
-
 2. Go to the **D:\DP500\Allfiles\11\Starter** folder.
 
 3. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Improve query performance with dual storage mode.pbix** file.
 
 4. If prompted about a potential security risk, read the message, and then select **OK**.
-
-	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image2.png)
 
 5. If prompted to approve running a Native Database Query, select **Run**.
 

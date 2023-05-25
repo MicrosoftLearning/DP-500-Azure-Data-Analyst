@@ -109,7 +109,7 @@ In this task, you will set up Power BI.
 
 10. Create a workspace named DP500 labs and select **Save**.
 
-    *Note: The workspace name must be unique. If you're getting an error, change the workspace name.*
+    *Note: The workspace name must be unique within the tenant. If you're getting an error, change the workspace name.*
 
 11. Navigate back to Power BI Desktop. If you see **Sign in** in the top right corner of the screen, sign-in again using the credentials provided on the Resources tab of the lab environment. If you are already signed in, proceed to the next step.
 
@@ -135,9 +135,9 @@ In this task, you will start the SQL pool.
 
 1. Resume the SQL pool.
 
- ![](../images/dp500-create-a-star-schema-model-image3e.png)
+   ![](../images/dp500-create-a-star-schema-model-image3e.png)
 
- *Important: The SQL pool is a costly resource. Please limit the use of this resource when working on this lab. The final task in this lab will instruct you to pause the resource.*
+   *Important: The SQL pool is a costly resource. Please limit the use of this resource when working on this lab. The final task in this lab will instruct you to pause the resource.*
 
 ### Link your Power BI workspace to Azure Synapse Analytics
 
@@ -147,7 +147,7 @@ In this task you will link your existing Power BI workspace to your Azure Synaps
 
 1. On the home page of Azure Synapse Studio, select **Visualize** to link your Power BI workspace.
 
- ![](../images/dp500-create-a-star-schema-model-image3f.png)
+   ![](../images/dp500-create-a-star-schema-model-image3f.png)
 
 1. From the **Workspace name** dropdown, select the workspace you created in the previous task and select **Create**.
 

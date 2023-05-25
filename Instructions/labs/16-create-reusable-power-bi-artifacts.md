@@ -53,11 +53,7 @@ In this task, you will set up Power BI.
 
 1. To open Power BI Desktop, on the taskbar, select the **Power BI Desktop** shortcut.
 
-	![](../images/dp500-create-a-star-schema-model-image1.png)
-
-2. Select **X** located at the top-right of the getting started window.
-
-	![](../images/dp500-create-a-star-schema-model-image2.png)
+2. Close the getting started window.
 
 3. At the top-right corner of Power BI Desktop, if you're not already signed in, select **Sign In**. Use the lab credentials to complete the sign in process.
 
@@ -68,15 +64,14 @@ In this task, you will set up Power BI.
 
 5. Enter a 10 digit phone number and select **Get started**. Select **Get started** once more. You will be redirected to Power BI.
 
-1. At the top-right, select the profile icon, and then select **Start trial**.
+6. At the top-right, select the profile icon, and then select **Start trial**.
 
 	![](../images/dp500-create-a-dataflow-image3.png)
 
-1. When prompted, select **Start trial**.
+7. When prompted, select **Start trial**.
 
-	![](../images/dp500-create-a-dataflow-image4.png)
 
-1. Do any remaining tasks to complete the trial setup.
+8. Do any remaining tasks to complete the trial setup.
 
 	*Tip: The Power BI web browser experience is known as the **Power BI service**.*
 
@@ -104,8 +99,6 @@ In this task, you will create a workspace.
 ### Open the starter file in Power BI Desktop
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
-
-	![](../images/dp500-create-reusable-power-bi-artifacts-image6.png)
 
 2. Go to the **D:\DP500\Allfiles\16\Starter** folder.
 
@@ -141,19 +134,13 @@ In this task, you will publish the data model.
 
 2. In the **Publish to Power BI** window, select your workspace (not the personal workspace), and then select **Select**.
 
-	![](../images/dp500-create-reusable-power-bi-artifacts-image11.png)
-
 3. When the publishing succeeds, select **Got it**.
-
-	![](../images/dp500-create-reusable-power-bi-artifacts-image12.png)
 
 	*Once published, the model becomes a Power BI dataset. In this lab, this dataset is a core dataset that a business analyst can extend to create a specialized dataset. In the next exercise, you will create a specialized dataset to solve a specific business requirement.*
 
 4. Close Power BI Desktop.
 
 5. If prompted to save changes, select **Don't save**.
-
-	![](../images/dp500-create-reusable-power-bi-artifacts-image13.png)
 
 ## Create a specialized dataset
 
@@ -165,11 +152,7 @@ In this task, you will create a new report that uses a live connection to the **
 
 1. To open Power BI Desktop, on the taskbar, select the **Power BI Desktop** shortcut.
 
-	![](../images/dp500-create-reusable-power-bi-artifacts-image14.png)
-
-2. Select **X** located at the top-right of the getting started window.
-
-	![](../images/dp500-create-reusable-power-bi-artifacts-image15.png)
+2. Close the getting started window.
 
 3. To save the file, on the **File** ribbon, select **Save as**.
 

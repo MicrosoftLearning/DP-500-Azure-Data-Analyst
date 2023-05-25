@@ -82,25 +82,15 @@ can edit a BIM file without accessing any data in the model.*
 
 1.  At the **Select Installation Folder** step, select **Next**.
 
-    ![Shape Description automatically generated with medium
-    confidence](../images/image4.png)
 
-1.  At the **Application Shortcuts** step, select **Next**.
+2.  At the **Application Shortcuts** step, select **Next**.
 
-    ![Shape Description automatically generated with medium
-    confidence](../images/image4.png)
 
-1. At the **Confirm Installation** step, select **Next**.
+3. At the **Confirm Installation** step, select **Next**.
 
-    ![Shape Description automatically generated with medium
-    confidence](../images/image4.png)
+4. If you get a **User Account Control** popup window, select **Yes.**
 
-1. If you get a **User Account Control** popup window, select **Yes.**
-
-1. When the installation is complete, select **Close**.
-
-    ![A picture containing shape Description automatically
-    generated](../images/image5.png)
+5. When the installation is complete, select **Close**.
 
     *Tabular Editor is now installed and registered as a Power BI Desktop
     external tool.*
@@ -125,7 +115,7 @@ Now you'll open a pre-developed Power BI Desktop solution.
     ![Graphical user interface, application Description automatically
     generated](../images/image7.png)
 
-7.  Notice that it’s possible to launch Tabular Editor from this ribbon tab.
+7.  Notice that you can launch Tabular Editor from this ribbon tab.
 
     ![Text Description automatically generated with low
     confidence](../images/image8.png)

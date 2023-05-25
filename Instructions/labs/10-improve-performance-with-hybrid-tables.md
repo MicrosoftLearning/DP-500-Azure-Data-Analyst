@@ -49,8 +49,6 @@ In this task, you'll create an Azure SQL database that you'll use as a data sour
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
-	![](../images/dp500-improve-performance-with-hybrid-tables-image13.png)
-
 2. Go to the **D:\DP500\Allfiles\10** folder.
 
 3. Double click to open the **setup2.ps1** file script.
@@ -61,8 +59,6 @@ In this task, you'll create an Azure SQL database that you'll use as a data sour
    
    When the search results appear, select **Run as administrator**
     
-	![](../images/run-powershell-admin.png)
-	
 	*If prompted, select Yes to allow this app to make changes to your device.*
 1. In PowerShell, enter the following 2 lines of text to run the script. 
 	

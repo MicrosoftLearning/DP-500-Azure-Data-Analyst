@@ -53,15 +53,13 @@ In this task, you will open a pre-developed Power BI template file.
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
-    ![](../images/dp500-create-a-composite-model-image1.png)
+2. Go to the **D:\DP500\Allfiles\08\Starter** folder.
 
-1. Go to the **D:\DP500\Allfiles\08\Starter** folder.
+3. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Create a composite model.pbit** file. 
 
-1. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Create a composite model.pbit** file. 
+4. If prompted to approve a potential security risk, select **OK**.
 
-1. If prompted to approve a potential security risk, select **OK**.
-
-1. Enter the SQLServerInstance, SqlServerDatabase, and Culture as provided below. Select **Load**.
+5. Enter the SQLServerInstance, SqlServerDatabase, and Culture as provided below. Select **Load**.
 
     SqlServerInstance = ```localhost```
 
@@ -71,17 +69,17 @@ In this task, you will open a pre-developed Power BI template file.
 
     ![](../images/dp500-create-a-composite-model-image3.png)
 
-1. In the SQL server database connection prompt, select **Connect**.
+6. In the SQL server database connection prompt, select **Connect**.
 
-1. In the Encryption Support window, select **OK**.
+7. In the Encryption Support window, select **OK**.
 
-1. In the Native Database Query window, select **Run**.
+8. In the Native Database Query window, select **Run**.
 
-1. Save the file. On the **File** menu, select **Save as**.
+9. Save the file. On the **File** menu, select **Save as**.
 
-1. In the **Save As** window, go to the **D:\DP500\Allfiles\08\MySolution** folder. The file name is **Sales Analysis - Create a composite model.pbix**.
+10. In the **Save As** window, go to the **D:\DP500\Allfiles\08\MySolution** folder. The file name is **Sales Analysis - Create a composite model.pbix**.
 
-1. Select **Save**.
+11. Select **Save**.
 
 ### Review the report
 

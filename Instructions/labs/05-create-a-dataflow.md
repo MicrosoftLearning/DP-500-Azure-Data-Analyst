@@ -88,9 +88,7 @@ In this task, you will set up Power BI Desktop.
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
-	![](../images/dp500-create-a-dataflow-image1.png)
-
-1. Go to the **D:\DP500\Allfiles\05\Starter** folder.
+1. Navigate to the **D:\DP500\Allfiles\05\Starter** folder.
 
 1. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Create a dataflow.pbix** file.
 
@@ -124,34 +122,20 @@ In this task, you will sign in to the Power BI service, start a trial license, a
 
 1. When prompted, select **Start trial**.
 
-	![](../images/dp500-create-a-dataflow-image4.png)
 
-1. Do any remaining tasks to complete the trial setup.
+2. Do any remaining tasks to complete the trial setup.
 
 	*Tip: The Power BI web browser experience is known as the **Power BI service**.*
 
-  
+9. Select Workspaces and **Create a Workspace**.
 
-### Create a workspace
+    ![](../images/dp500-create-a-star-schema-model-image2a.png)
 
-In this task, you will create a workspace.
+10. Create a workspace named DP500 labs and select **Save**.
 
-1. In the Power BI service, to create a workspace, in the **Navigation** pane (located at the left), select **Workspaces**, and then select **Create workspace**.
+    *Note: The workspace name must be unique within the tenant. If you're getting an error, change the workspace name.*
 
-	![](../images/dp500-create-a-dataflow-image5.png)
-
-
-1. In the **Create a workspace** pane (located at the right), in the **Workspace name** box, enter a name for the workspace.
-
-	*The workspace name must be unique within the tenant.*
-
-	![](../images/dp500-create-a-dataflow-image6.png)
-
-1. Select **Save**.
-
-	![](../images/dp500-create-a-dataflow-image7.png)
-
-	*Once created, the workspace is opened. In a later exercise, you will create a dataflow for this workspace.*
+Once created, the workspace is opened. In a later exercise, you will create a dataflow for this workspace.
 
 ### Start the SQL pool
 
