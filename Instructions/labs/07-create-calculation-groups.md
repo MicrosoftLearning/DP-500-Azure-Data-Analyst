@@ -155,7 +155,7 @@ Review the data model to understand how calculation groups will apply to this mo
 
     ![](../images/image11.png)
 
-4.  In the **Fields** pane (located at the right), expand the **Sales** table to
+4.  In the **Data** pane (located at the right), expand the **Sales** table to
     review the fields.
 
     ![Text Description automatically generated with low
@@ -175,7 +175,7 @@ Review the data model to understand how calculation groups will apply to this mo
 
 Create three sales-related measures in preparation for the creation of your calculation groups.
 
-1.  In the **Fields** pane, right-click the **Sales** table, and then select
+1.  In the **Data** pane, right-click the **Sales** table, and then select
     **New measure**.
 
     ![Graphical user interface, application Description automatically
@@ -211,7 +211,7 @@ Create three sales-related measures in preparation for the creation of your calc
 
     ```Profit = [Sales] - [Cost]```
 
-6.  In the **Fields** pane, right-click the **Sales Amount** field, and then
+6.  In the **Data** pane, right-click the **Sales Amount** field, and then
     select **Hide**.
 
     ![Graphical user interface, application Description automatically
@@ -219,7 +219,7 @@ Create three sales-related measures in preparation for the creation of your calc
 
 7.  Also hide the **Total Product Cost** field.
 
-8.  Notice that the **Sales** table is now listed first in the **Fields** pane,
+8.  Notice that the **Sales** table is now listed first in the **Data** pane,
     and it is decorated with a multi-calculator icon.
 
     ![Application Description automatically generated with low
@@ -374,7 +374,7 @@ groups.*
 
     *Refreshing applies the changes by creating the calculation group as a model table. It then loads the calculation items as rows of data.*
 
-20. In the **Fields** pane, expand open the **Time Intelligence** table.
+20. In the **Data** pane, expand open the **Time Intelligence** table.
 
     ![Text Description automatically generated with medium
     confidence](../images/image29.png)
@@ -392,13 +392,13 @@ column.
     ![Graphical user interface, text, application, email Description
     automatically generated](../images/image30.png)
 
-3.  From the **Fields** pane, from inside the **Sales** table, drag the
+3.  From the **Data** pane, from inside the **Sales** table, drag the
     **Sales** field into the **Values** well.
 
     ![Graphical user interface, application Description automatically
     generated](../images/image31.png)
 
-4.  From the **Fields** pane, from inside the **Time Intelligence** table, drag
+4.  From the **Data** pane, from inside the **Time Intelligence** table, drag
     the **Time Calculation** field into the **Columns** well.
 
     ![Graphical user interface, application, Word Description automatically
@@ -424,7 +424,7 @@ currency. It will also apply appropriate formatting for the selected currency.
 
     ![Data view.](../images/image34.png)
 
-2.  In the **Fields** pane, select the **Currency** table.
+2.  In the **Data** pane, select the **Currency** table.
 
 3.  Notice the **FormatString** hidden column that contains format string
     expressions was column values.
@@ -488,7 +488,7 @@ currency. It will also apply appropriate formatting for the selected currency.
 
 12. Select the matrix visual.
 
-13. From the **Fields** pane, from within the **Currency Conversion** table,
+13. From the **Data** pane, from within the **Currency Conversion** table,
     drag the **Converted Currency** field into the **Filters** pane, into the
     **Filter on this visual** group.
 
