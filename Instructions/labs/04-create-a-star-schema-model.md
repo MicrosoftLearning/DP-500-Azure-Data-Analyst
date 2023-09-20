@@ -28,7 +28,7 @@ In this exercise, prepare your environment.
 
    > **Note**: If you have already loaded data into Azure Synapse Analytics using a git clone, you can skip this task and proceed to **Set up Power BI.**
 
-1. Sign into the [Azure portal](https://portal.azure.com) using the login information located on the Resources tab on the right side of the VM.
+1. Sign into the [Azure portal](https://portal.azure.com) with your organizational credentials (or those provided to you).
 2. Use the **[\>_]** button to the right of the search bar at the top of the page to create a new Cloud Shell in the Azure portal, selecting a ***PowerShell*** environment and creating storage if prompted. The cloud shell provides a command line interface in a pane at the bottom of the Azure portal, as shown here:
 
     ![Azure portal with a cloud shell pane](../images/cloud-shell.png)
@@ -65,17 +65,15 @@ In this exercise, prepare your environment.
     ![](../images/command-prompt.png)
 1. In the command prompt window, navigate to the D drive by typing:
 
-    `d:` 
+    `d:`
 
    Press enter.
 
     ![](../images/command-prompt-2.png)
 
-
 1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
-    
+
 	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
-   
 
 1. When the repository has been cloned, open the D drive in the file explorer to ensure the files have been downloaded.
 
@@ -91,7 +89,7 @@ In this task, you will set up Power BI.
 
 	![](../images/dp500-create-a-star-schema-model-image2.png)
 
-3. At the top-right corner of Power BI Desktop, if you're not already signed in, select **Sign In**. Use the lab credentials to complete the sign in process.
+3. At the top-right corner of Power BI Desktop, if you're not already signed in, select **Sign In**. Use your organizational credentials (or the lab credentials provided to you) to complete the sign in process.
 
 	![](../images/dp500-create-a-star-schema-model-image3.png)
 4. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **Continue** to complete the sign up.
