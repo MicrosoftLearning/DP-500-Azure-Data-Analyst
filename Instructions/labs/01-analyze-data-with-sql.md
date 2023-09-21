@@ -187,7 +187,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
 
 8. Review the results and note that they include only the sales counts for 2019 and 2020. This filtering is achieved by inclusing a wildcard for the partition folder value in the BULK path (*year=\**) and a WHERE clause based on the *filepath* property of the results returned by OPENROWSET (which in this case has the alias *[result]*).
 
-7. Name your script **Sales Parquet query**, and publish it. Then close the script pane.
+9. Name your script **Sales Parquet query**, and publish it. Then close the script pane.
 
 ### Use SQL to query JSON files
 
@@ -348,6 +348,8 @@ The external data source makes it easier to access the files in the data lake, b
 3. In the **...** menu for the **dbo.orders** table, select **New SQL script** > **Select TOP 100 rows**.
 4. Run the SELECT script that has been generated, and verify that it retrieves the first 100 rows of data from the table, which in turn references the files in the data lake.
 
+    >**Note:** You should always choose the method that best fits your specific needs and use case. For more detailed information, you can check the [How to use OPENROWSET using serverless SQL pool in Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/develop-openrowset) and [Access external storage using serverless SQL pool in Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/develop-storage-files-overview?tabs=impersonation) articles.
+
 ## Visualize query results
 
 Now that you've explored various ways to query files in the data lake by using SQL queries, you can analyze the results of these queries to gain insights into the data. Often, insights are easier to uncover by visualizing the query results in a chart; which you can easily do by using the integrated charting functionality in the Synapse Studio query editor.
@@ -363,6 +365,7 @@ Now that you've explored various ways to query files in the data lake by using S
     GROUP BY YEAR(OrderDate)
     ORDER BY OrderYear;
     ```
+
 4. In the **Results** pane, select **Chart** and view the chart that is created for you; which should be a line chart.
 5. Change the **Category column** to **OrderYear** so that the line chart shows the revenue trend over the three year period from 2019 to 2021:
 

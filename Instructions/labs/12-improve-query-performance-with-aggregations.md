@@ -51,8 +51,6 @@ In this task, you will open a pre-developed Power BI Desktop solution.
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
-	![](../images/dp500-improve-query-performance-with-aggregations-image1.png)
-
 2. Go to the **D:\DP500\Allfiles\12\Starter** folder.
 
 3. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Improve query performance with aggregations.pbix** file.

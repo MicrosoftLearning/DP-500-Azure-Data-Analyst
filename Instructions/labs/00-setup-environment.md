@@ -16,7 +16,7 @@ Setup details and database backup files can be found on [GitHub](https://github.
 
 ### Windows 11 (OS)
 
-1. Install Windows 11 (*version xxxx or later*).
+1. Install Windows 11.
 
 2. Apply all available updates.
 
@@ -41,6 +41,7 @@ Setup details and database backup files can be found on [GitHub](https://github.
 1. Download and install from the Microsoft store. If you do not have access to the Microsoft store, download from the [web](https://www.microsoft.com/download/details.aspx?id=58494).
 
     - Use the default options in the installer.
+    - Current version for labs is **April 2023**
 
 ### Power BI Report Builder
 

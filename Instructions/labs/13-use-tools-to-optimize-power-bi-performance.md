@@ -77,33 +77,17 @@ environment, continue to the next task.*
 
 1.  At the **License Agreement** step, if you agree, select **I agree**, and then select **Next**.
 
-    ![Graphical user interface, application Description automatically
-    generated](../images/image3.png)
-
 1.  At the **Select Installation Folder** step, select **Next**.
 
-    ![Shape Description automatically generated with medium
-    confidence](../images/image4.png)
-
 1.  At the **Application Shortcuts** step, select **Next**.
-
-    ![Shape Description automatically generated with medium
-    confidence](../images/image4.png)
 
 1.  At the **Confirm Installation** step, select **Next**. 
 
     *If prompted, select **Yes** to allow app to make changes.*
 
-    ![Shape Description automatically generated with medium
-    confidence](../images/image4.png)
-
 1. When the installation is complete, select **Close**.
 
-    ![A picture containing shape Description automatically
-    generated](../images/image5.png)
-
-    *Tabular Editor is now installed and registered as a Power BI Desktop
-    external tool.*
+    *Tabular Editor is now installed and registered as a Power BI Desktop external tool.*
 
 ### Set up Power BI Desktop
 
@@ -123,7 +107,7 @@ In this task, you will open a pre-developed Power BI Desktop solution.
 
 	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image8.png)
 
-7. Notice that it's possible to launch Tabular Editor from this ribbon tab.
+7. Notice that you can launch Tabular Editor from this ribbon tab.
 
 	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image9.png)
 
@@ -371,9 +355,7 @@ In this task, you will optimize a query by using an improved measure formula.
 
 *Note that it's difficult to optimize a query when the data model volumes are small. This exercise focuses on using DAX Studio rather than optimizing DAX queries.*
 
-1. On the **File** ribbon tab, select **Browse**.
-
-	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image32.png)
+1. On the **File** menu, select **Browse**.
 
 2. In the **Open** window, go to the **D:\DP500\Allfiles\13\Assets** folder.
 

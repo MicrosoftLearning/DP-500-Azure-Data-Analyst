@@ -53,15 +53,13 @@ In this task, you will open a pre-developed Power BI template file.
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
-    ![](../images/dp500-create-a-composite-model-image1.png)
+2. Go to the **D:\DP500\Allfiles\08\Starter** folder.
 
-1. Go to the **D:\DP500\Allfiles\08\Starter** folder.
+3. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Create a composite model.pbit** file. 
 
-1. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Create a composite model.pbit** file. 
+4. If prompted to approve a potential security risk, select **OK**.
 
-1. If prompted to approve a potential security risk, select **OK**.
-
-1. Enter the SQLServerInstance, SqlServerDatabase, and Culture as provided below. Select **Load**.
+5. Enter the SQLServerInstance, SqlServerDatabase, and Culture as provided below. Select **Load**.
 
     SqlServerInstance = ```localhost```
 
@@ -71,17 +69,17 @@ In this task, you will open a pre-developed Power BI template file.
 
     ![](../images/dp500-create-a-composite-model-image3.png)
 
-1. In the SQL server database connection prompt, select **Connect**.
+6. In the SQL server database connection prompt, select **Connect**.
 
-1. In the Encryption Support window, select **OK**.
+7. In the Encryption Support window, select **OK**.
 
-1. In the Native Database Query window, select **Run**.
+8. In the Native Database Query window, select **Run**.
 
-1. Save the file. On the **File** ribbon tab, select **Save as**.
+9. Save the file. On the **File** menu, select **Save as**.
 
-1. In the **Save As** window, go to the **D:\DP500\Allfiles\08\MySolution** folder. The file name is Sales Analysis - Create a composite model.pbix.
+10. In the **Save As** window, go to the **D:\DP500\Allfiles\08\MySolution** folder. The file name is **Sales Analysis - Create a composite model.pbix**.
 
-1. Select **Save**.
+11. Select **Save**.
 
 ### Review the report
 
@@ -255,7 +253,7 @@ In this task, you will add two measures to allow the analysis of sales target va
 
     ![](../images/dp500-create-a-composite-model-image28.png)
 
-1. To create a measure, in the **Fields** pane (located at the right), right-click the **Targets** table, and then select **New measure**.
+1. To create a measure, in the **Data** pane (located at the right), right-click the **Targets** table, and then select **New measure**.
 
     ![](../images/dp500-create-a-composite-model-image29.png)
 
@@ -297,7 +295,7 @@ In this task, you will add two measures to allow the analysis of sales target va
 
     ![](../images/dp500-create-a-composite-model-image31.png)
 
-1. In the **Fields** pane, inside the **Targets** table, verify that there are two measures.
+1. In the **Data** pane, inside the **Targets** table, verify that there are two measures.
 
     ![](../images/dp500-create-a-composite-model-image32.png)
 
@@ -307,7 +305,7 @@ In this task, you will update the report to use the new measures.
 
 1. In the report, select the column chart visual.
 
-1. From the **Fields** pane, drag the **Target Amount** field into the **Visualizations** pane, inside the **Values** well, directly beneath the **Sales Amount** field.
+1. From the **Data** pane, drag the **Target Amount** field into the **Visualizations** pane, inside the **Values** well, directly beneath the **Sales Amount** field.
 
     ![](../images/dp500-create-a-composite-model-image33.png)
 

@@ -55,8 +55,6 @@ In this task, you will set up Power BI Desktop.
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
-	![](../images/dp500-enforce-model-security-image1.png)
-
 2. Go to the **D:\DP500\Allfiles\09\Starter** folder.
 
 3. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Enforce model security.pbix** file.
@@ -91,12 +89,9 @@ In this task, you will sign in to the Power BI service, start a trial license, a
 
 4. When prompted, select **Start trial**.
 
-	![](../images/dp500-enforce-model-security-image4.png)
-
 5. Do any remaining tasks to complete the trial setup.
 
 	*Tip: The Power BI web browser experience is known as the **Power BI service**.*
-
 
 ### Create a workspace
 
@@ -114,8 +109,6 @@ In this task, you will create a workspace.
 	![](../images/dp500-enforce-model-security-image6.png)
 
 3. Select **Save**.
-
-	![](../images/dp500-enforce-model-security-image7.png)
 
 	*Once created, the workspace is opened. In a later exercise, you will publish a dataset to this workspace.*
 
