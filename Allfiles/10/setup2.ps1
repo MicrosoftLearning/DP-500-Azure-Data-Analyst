@@ -33,6 +33,7 @@ $StorageHT = @{
      Name              = $storageName 
      SkuName           = 'Standard_LRS'  
      Location          = $location
+     AllowBlobPublicAccess = $true
 }
 $StorageAccount = New-AzStorageAccount @StorageHT
 
