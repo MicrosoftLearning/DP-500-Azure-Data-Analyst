@@ -1,6 +1,3 @@
-USE [AdventureWorksDW2022-DP500];
-GO
-
 --Insert an internet sales order for today
 DECLARE @Today DATE = SYSDATETIME();
 DECLARE
@@ -10,7 +7,7 @@ DECLARE
 IF NOT EXISTS(SELECT * FROM [dbo].[FactInternetSales] WHERE [SalesOrderNumber] = N'SO99999')
 BEGIN
 	INSERT
-		[dbo].[FactInternetSales]
+		[AdventureWorksDW2022-DP500].[dbo].[FactInternetSales]
 	SELECT
 		N'SO99999' AS [SalesOrderNumber]
 		,1 AS [SalesOrderLineNumber]
