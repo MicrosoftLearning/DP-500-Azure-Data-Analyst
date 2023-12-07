@@ -4,7 +4,7 @@ DECLARE
 	@OrderDateKey INT = ((YEAR(@Today) * 10000) + (MONTH(@Today) * 100) + DAY(@Today))
 	,@DueDateKey INT = ((YEAR(DATEADD(DAY, 10, @Today)) * 10000) + (MONTH(DATEADD(DAY, 10, @Today)) * 100) + DAY(DATEADD(DAY, 10, @Today)));
 
-IF NOT EXISTS(SELECT * FROM [dbo].[FactInternetSales] WHERE [SalesOrderNumber] = N'SO99999')
+IF NOT EXISTS(SELECT * FROM [AdventureWorksDW2022-DP500].[dbo].[FactInternetSales] WHERE [SalesOrderNumber] = N'SO99999')
 BEGIN
 	INSERT
 		[AdventureWorksDW2022-DP500].[dbo].[FactInternetSales]
