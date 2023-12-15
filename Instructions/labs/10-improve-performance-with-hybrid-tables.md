@@ -608,6 +608,8 @@ In this task, you will add an order to the database.
 	![](../images/dp500-improve-performance-with-hybrid-tables-image71.png)
 
 9. Change the database context from `master` to `AdventureWorksDW2022-DP500` using the dropdown menu in the toolbar in SQL Server Management Studio
+
+	![](../images/dp500-improve-performance-with-hybrid-tables-image72a.png)
    
 10. Review the script.
 
