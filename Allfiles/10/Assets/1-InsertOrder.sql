@@ -1,8 +1,9 @@
 --Insert an internet sales order for today
 DECLARE @Today DATE = SYSDATETIME();
+--Hard-coded the OrderDateKey to be prior to the end of the DimDate Values
 DECLARE
-	@OrderDateKey INT = ((YEAR(@Today) * 10000) + (MONTH(@Today) * 100) + DAY(@Today))
-	,@DueDateKey INT = ((YEAR(DATEADD(DAY, 10, @Today)) * 10000) + (MONTH(DATEADD(DAY, 10, @Today)) * 100) + DAY(DATEADD(DAY, 10, @Today)));
+	@OrderDateKey = '2023/01/15'
+	,@DueDateKey INT = 20230130
 
 IF NOT EXISTS(SELECT * FROM [dbo].[FactInternetSales] WHERE [SalesOrderNumber] = N'SO99999')
 BEGIN
