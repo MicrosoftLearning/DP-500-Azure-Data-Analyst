@@ -607,15 +607,17 @@ In this task, you will add an order to the database.
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image71.png)
 
-9. Review the script.
+9. Change the database context from `master` to `AdventureWorksDW2022-DP500` using the dropdown menu in the toolbar in SQL Server Management Studio
+   
+10. Review the script.
 
 	*This script inserts a single order into the **FactInternetSales** table using today as the order date.*
 
-10. To run a script, on the toolbar, select **Execute** (or press **F5**).
+11. To run a script, on the toolbar, select **Execute** (or press **F5**).
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image72.png)
 
-11. To close the file, on the **File** menu, select **Close**.
+12. To close the file, on the **File** menu, select **Close**.
 
 ### Refresh the report
 
