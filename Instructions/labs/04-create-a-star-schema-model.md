@@ -28,7 +28,7 @@ In this exercise, prepare your environment.
 
    > **Note**: If you have already loaded data into Azure Synapse Analytics using a git clone, you can skip this task and proceed to **Set up Power BI.**
 
-1. Sign into the [Azure portal](https://portal.azure.com) using the login information located on the Resources tab on the right side of the VM.
+1. Sign into the [Azure portal](https://portal.azure.com) with your organizational credentials (or those provided to you).
 2. Use the **[\>_]** button to the right of the search bar at the top of the page to create a new Cloud Shell in the Azure portal, selecting a ***PowerShell*** environment and creating storage if prompted. The cloud shell provides a command line interface in a pane at the bottom of the Azure portal, as shown here:
 
     ![Azure portal with a cloud shell pane](../images/cloud-shell.png)
@@ -85,7 +85,7 @@ In this task, you will set up Power BI.
 
 2. Close the getting started window by selecting the **X** located at the top-right.
 
-3. In the top-right corner of Power BI Desktop, if you're not already signed in, select **Sign In**. Use the lab credentials to complete the sign in process.
+3. At the top-right corner of Power BI Desktop, if you're not already signed in, select **Sign In**. Use your organizational credentials (or the lab credentials provided to you) to complete the sign in process.
 
 4. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **Continue** to complete the sign up.
 
