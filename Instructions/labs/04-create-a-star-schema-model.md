@@ -401,9 +401,9 @@ In this task, you will create five Power Query queries that will each load as a 
 
 - **EnglishProductName** as **Product**
 
-- **Product Details.EnglishProductCategoryName** as **Subcategory**
+- **Product Details.EnglishProductCategoryName** as **Category**
 
-- **Product Details.** as **Category**
+- **Product Details.EnglishProductSubcategoryName** as **SubCategory**
 
 45. Remove all columns, except:
 
