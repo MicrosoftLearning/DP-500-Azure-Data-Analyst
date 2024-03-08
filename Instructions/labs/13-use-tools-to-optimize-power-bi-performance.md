@@ -237,7 +237,7 @@ In this task, you will open BPA and review the results of the checks.
 	*Tip: All formulas are available to copy and paste from the **D:\DP500\Allfiles\13\Assets\Snippets.txt**.*
 
 	```
-	DIVIDE ( [Profit], SUM ( 'Sales'[Sales Amount] ) )C#
+	DIVIDE ( [Profit], SUM ( 'Sales'[Sales Amount] ) )
 	```
 
 7. To save the model changes, on the toolbar, select the **Save changes to the connected database** command (or press **Ctrl+S**).
