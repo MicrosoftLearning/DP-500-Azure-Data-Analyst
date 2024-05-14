@@ -1,4 +1,4 @@
-**This course will be retiring on  **2024/4/30**. We are no longer monitoring this repo for Issues and Pull Requests. Once the course is retired, all GitHub repos will be removed. You can find related content in the [Microsoft Fabric repo](https://github.com/MicrosoftLearning/mslearn-fabric).**
+## **This course will be retiring on  **2024/4/30**. We are no longer monitoring this repo for Issues and Pull Requests. Once the course is retired, all GitHub repos will be removed. You can find related content in the [Microsoft Fabric repo](https://github.com/MicrosoftLearning/mslearn-fabric) and [DP-203 Azure Data Engineer repo](https://github.com/MicrosoftLearning/dp-203-azure-data-engineer).**
 
 # DP-500: Designing and Implementing Enterprise Scale Analytics Solutions Using Microsoft Azure
 
