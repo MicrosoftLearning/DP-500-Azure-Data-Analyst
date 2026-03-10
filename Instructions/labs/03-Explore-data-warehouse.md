@@ -1,7 +1,19 @@
 ---
 lab:
-    title: 'Explore a relational data warehouse'
-    module: 'Model, query, and explore data in Azure Synapse'
+  title: Explore a relational data warehouse
+  module: Model, query, and explore data in Azure Synapse
+  description: Azure Synapse Analytics is built on a scalable set capabilities to
+    support enterprise data warehousing; including file-based data analytics in a
+    data lake as well as large-scale relational data warehouses and the data transfer
+    and transformation pipelines used to load them. In this lab, you'll explore how
+    to use a dedicated SQL pool in Azure Synapse Analytics to store and query data
+    in a relational data warehouse.
+  duration: 15 minutes
+  level: 400
+  islab: true
+  primarytopics:
+  - Azure
+  - Azure Synapse Analytics
 ---
 
 # Explore a relational data warehouse
