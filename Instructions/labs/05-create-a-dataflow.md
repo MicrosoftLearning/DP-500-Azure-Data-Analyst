@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Create a dataflow'
-    module: 'Prepare data for tabular models in Power BI'
+  title: Create a dataflow
+  module: Prepare data for tabular models in Power BI
+  description: '**The estimated time to complete the lab is 45 minutes**'
+  duration: 45 minutes
+  level: 300
+  islab: true
 ---
 
 # Create a dataflow
