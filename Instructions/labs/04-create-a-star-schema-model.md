@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Create a star schema model'
-    module: 'Prepare data for tabular models in Power BI'
+  title: Create a star schema model
+  module: Prepare data for tabular models in Power BI
+  description: '**The estimated time to complete the lab is 30 minutes**'
+  duration: 30 minutes
+  level: 200
+  islab: true
 ---
 
 # Create a star schema model
