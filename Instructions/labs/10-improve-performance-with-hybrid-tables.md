@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Improve performance with hybrid tables'
-    module: 'Optimize enterprise-scale tabular models'
+  title: Improve performance with hybrid tables
+  module: Optimize enterprise-scale tabular models
+  description: '**The estimated time to complete the lab is 45 minutes**'
+  duration: 45 minutes
+  level: 400
+  islab: true
 ---
 
 # Improve performance with hybrid tables
