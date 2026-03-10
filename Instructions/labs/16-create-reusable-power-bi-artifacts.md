@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Create reusable Power BI assets'
-    module: 'Manage the analytics development lifecycle'
+  title: Create reusable Power BI assets
+  module: Manage the analytics development lifecycle
+  description: '**The estimated time to complete the lab is 45 minutes**'
+  duration: 45 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Power BI
 ---
 
 # Create reusable Power BI assets
