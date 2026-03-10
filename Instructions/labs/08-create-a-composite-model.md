@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Create a composite model'
-    module: 'Design and build tabular models'
+  title: Create a composite model
+  module: Design and build tabular models
+  description: '**The estimated time to complete the lab is 30 minutes.**'
+  duration: 30 minutes
+  level: 200
+  islab: true
 ---
 
 # Create a composite model
