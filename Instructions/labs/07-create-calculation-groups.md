@@ -1,8 +1,13 @@
 ---
 lab:
-    title: 'Create calculation groups'
-    module: 'Design and build tabular models'
+  title: Create calculation groups
+  module: Design and build tabular models
+  description: The estimated time to complete the lab is 45 minutes
+  duration: 45 minutes
+  level: 100
+  islab: true
 ---
+
 # Create calculation groups
 
 ## Overview
