@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Use tools to optimize Power BI performance'
-    module: 'Optimize enterprise-scale tabular models'
+  title: Use tools to optimize Power BI performance
+  module: Optimize enterprise-scale tabular models
+  description: '**The estimated time to complete the lab is 30 minutes**'
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Power BI
 ---
 
 # Use tools to optimize Power BI performance
