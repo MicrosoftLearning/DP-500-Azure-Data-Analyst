@@ -1,3 +1,12 @@
+---
+lab:
+  title: Create a paginated report
+  description: '**The estimated time to complete the lab is 45 minutes**'
+  duration: 45 minutes
+  level: 100
+  islab: true
+---
+
 # Create a paginated report
 
 ## Overview
