@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Improve query performance with aggregations'
-    module: 'Optimize enterprise-scale tabular models'
+  title: Improve query performance with aggregations
+  module: Optimize enterprise-scale tabular models
+  description: '**The estimated time to complete the lab is 30 minutes**'
+  duration: 30 minutes
+  level: 100
+  islab: true
 ---
 
 # Improve query performance with aggregations
