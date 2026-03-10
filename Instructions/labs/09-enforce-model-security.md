@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Enforce model security'
-    module: 'Design and build tabular models'
+  title: Enforce model security
+  module: Design and build tabular models
+  description: '**The estimated time to complete the lab is 45 minutes**'
+  duration: 45 minutes
+  level: 200
+  islab: true
 ---
 
 # Enforce model security
