@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Monitor data in real time'
-    module: 'Implement advanced data visualization techniques by using Power BI'
+  title: Monitor data in real time
+  module: Implement advanced data visualization techniques by using Power BI
+  description: '**The estimated time to complete the lab is 30 minutes**'
+  duration: 30 minutes
+  level: 200
+  islab: true
 ---
 
 # Monitor data in real time
