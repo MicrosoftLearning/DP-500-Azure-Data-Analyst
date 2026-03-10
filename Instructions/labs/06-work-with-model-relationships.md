@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Work with model relationships'
-    module: 'Design and build tabular models'
+  title: Work with model relationships
+  module: Design and build tabular models
+  description: '**The estimated time to complete the lab is 45 minutes**'
+  duration: 45 minutes
+  level: 100
+  islab: true
 ---
 
 # Work with model relationships
