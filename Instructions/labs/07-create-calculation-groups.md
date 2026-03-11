@@ -1,8 +1,15 @@
 ---
 lab:
-    title: 'Create calculation groups'
-    module: 'Design and build tabular models'
+  title: Create calculation groups
+  module: Design and build tabular models
+  description: In this lab, you will use Power BI Desktop and Tabular Editor 2 to create calculation groups.
+  duration: 45 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power BI
 ---
+
 # Create calculation groups
 
 ## Overview
