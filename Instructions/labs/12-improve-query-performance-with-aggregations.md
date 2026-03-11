@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Improve query performance with aggregations'
-    module: 'Optimize enterprise-scale tabular models'
+  title: Improve query performance with aggregations
+  module: Optimize enterprise-scale tabular models
+  description: In this lab, you will add an aggregation to improve the query performance of the Sales fact table.
+  duration: 30 minutes
+  level: 100
+  islab: true
 ---
 
 # Improve query performance with aggregations
