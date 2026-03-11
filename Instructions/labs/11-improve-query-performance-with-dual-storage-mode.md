@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Improve query performance with dual storage mode'
-    module: 'Optimize enterprise-scale tabular models'
+  title: Improve query performance with dual storage mode
+  module: Optimize enterprise-scale tabular models
+  description: In this lab, you will improve the performance of a composite model by setting some tables to use dual storage mode.
+  duration: 30 minutes
+  level: 100
+  islab: true
 ---
 
 # Improve query performance with dual storage mode
