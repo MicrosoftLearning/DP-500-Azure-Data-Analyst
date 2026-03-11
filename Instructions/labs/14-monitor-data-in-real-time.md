@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Monitor data in real time'
-    module: 'Implement advanced data visualization techniques by using Power BI'
+  title: Monitor data in real time
+  module: Implement advanced data visualization techniques by using Power BI
+  description: In this lab, you will configure a report to use automatic page refresh. That way, it will be possible for report consumers to monitor real-time internet sales results.
+  duration: 30 minutes
+  level: 200
+  islab: true
 ---
 
 # Monitor data in real time
