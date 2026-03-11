@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Analyze data in a data lake with Spark'
-    module: 'Model, query, and explore data in Azure Synapse'
+  title: Analyze data in a data lake with Spark
+  module: Model, query, and explore data in Azure Synapse
+  description: In this exercise, you'll use a combination of a PowerShell script and an ARM template to provision an Azure Synapse Analytics workspace.
+  duration: 10 minutes
+  level: 400
+  islab: true
+  primarytopics:
+    - Azure
+    - Azure Synapse Analytics
 ---
 
 # Analyze data in a data lake with Spark
