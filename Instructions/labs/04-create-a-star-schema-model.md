@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Create a star schema model'
-    module: 'Prepare data for tabular models in Power BI'
+  title: Create a star schema model
+  module: Prepare data for tabular models in Power BI
+  description: In this task, you will create five Power Query queries that will each load as a table to your model.
+  duration: 30 minutes
+  level: 200
+  islab: true
 ---
 
 # Create a star schema model
