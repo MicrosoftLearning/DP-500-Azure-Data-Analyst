@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Enforce model security'
-    module: 'Design and build tabular models'
+  title: Enforce model security
+  module: Design and build tabular models
+  description: In this task, you will create a dynamic role, which enforces permissions based on data in the model.
+  duration: 45 minutes
+  level: 200
+  islab: true
 ---
 
 # Enforce model security
