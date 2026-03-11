@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Work with model relationships'
-    module: 'Design and build tabular models'
+  title: Work with model relationships
+  module: Design and build tabular models
+  description: In this exercise, you will open a pre-developed Power BI Desktop solution to learn about the data model. You will then explore the behavior of active model relationships.
+  duration: 45 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power BI
 ---
 
 # Work with model relationships
