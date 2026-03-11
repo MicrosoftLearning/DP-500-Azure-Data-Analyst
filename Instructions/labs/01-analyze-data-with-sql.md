@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Query files using a serverless SQL pool'
-    module: 'Model, query, and explore data in Azure Synapse'
+  title: Query files using a serverless SQL pool
+  module: Model, query, and explore data in Azure Synapse
+  description: In this exercise, you'll use a combination of a PowerShell script and an ARM template to provision an Azure Synapse Analytics workspace.
+  duration: 10 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Azure
+    - Azure Synapse Analytics
 ---
 
 # Query files using a serverless SQL pool
