@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Use tools to optimize Power BI performance'
-    module: 'Optimize enterprise-scale tabular models'
+  title: Use tools to optimize Power BI performance
+  module: Optimize enterprise-scale tabular models
+  description: In this lab, you will learn how to use two external tools to help you develop, manage, and optimize data models and DAX queries.
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power BI
 ---
 
 # Use tools to optimize Power BI performance
