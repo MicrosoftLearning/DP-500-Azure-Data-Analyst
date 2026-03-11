@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Create a dataflow'
-    module: 'Prepare data for tabular models in Power BI'
+  title: Create a dataflow
+  module: Prepare data for tabular models in Power BI
+  description: In this task, you will create a dataflow that represents a consistent definition of date-related data.
+  duration: 45 minutes
+  level: 300
+  islab: true
 ---
 
 # Create a dataflow
